@@ -1,0 +1,319 @@
+@media screen and (min-width: 358px) {
+  
+  .AboutCarrossel {
+
+    width: 100%;
+  }
+
+  .AboutCarrossel_content {
+
+
+  }
+
+  .AboutCarrossel_box {
+
+    width: 100%;
+
+    padding: 4rem .50rem .50rem .50rem;
+
+    box-sizing: border-box;
+  }
+
+  .AboutCarrossel_Card {
+
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .AboutCarrossel_backgroud {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 200px;
+
+    position: absolute;
+    top: -50px;
+
+    z-index: 100;
+  }
+
+  /*----------------------*/
+
+  .AboutCarrossel_Carrossel {
+
+    background-color: white;
+
+    width: 95%;
+    height: auto;
+
+    position: relative;
+    z-index: 200;
+
+    overflow: hidden;
+  }
+
+
+  .AboutCarrossel_content-Carrossel {
+
+    width: 409%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+  .AboutCarrossel_content-Carrossel::-webkit-scrollbar {
+
+    display: none;
+  }
+
+  .AboutCarrossel_boxes-scrroll {
+     width: 97%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    overflow-y: hidden;
+
+    transition: all ease-in-out 2s;
+    
+  }
+
+  .AboutCarrossel_box-card {
+
+    width: 95%;
+    max-width: 330px;
+    padding: .50rem;
+  }
+
+  .AboutCarrossel_box-card-description {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .AboutCarrossel_box-image-info {
+
+    position: relative;
+  }
+
+  .AboutCarrossel_image{
+
+    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 45px;
+    height: 45px;
+
+    margin: 15px 0px 0px 15px ;
+    border-radius: 50%;
+  }
+
+  .AboutCarrossel_doubleQuotes {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .AboutCarrossel_Quests {
+
+    color: orange;
+
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .AboutCarrossel_box-Opinion {
+
+    width: 220px;
+  }
+
+  .AboutCarrossel_box-Opinion p{
+
+    color: orangered;
+
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 0;
+  }
+
+  .AboutCarrossel_box-Opinion h1{
+
+    color: black;
+
+    font-family: "Chakra Petch", sans-serif;
+    letter-spacing: 1px;
+    text-align: start;
+    margin: 0;
+  }
+
+  .AboutCarrossel_box-TXT {
+
+    color: black;
+
+    font-family: sans-serif;
+    line-height: 22px;
+
+    margin: 0;
+  }
+
+  .AboutCarrossel_box-name-user {
+
+    color: black;
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 440px) {
+
+  .AboutCarrossel_Carrossel {
+
+    background-color: white;
+
+    width: 90%;
+    max-width: 370px;
+    height: auto;
+
+    position: relative;
+    z-index: 200;
+
+    overflow: hidden;
+  }
+
+
+  .AboutCarrossel_content-Carrossel {
+
+    width: 409%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+  .AboutCarrossel_boxes-scrroll {
+    width: 100%;
+
+ }
+
+  
+  .AboutCarrossel_image{
+    width: 55px;
+    height: 55px;
+
+    margin: 15px 0px 0px 15px ;
+  }
+
+  .AboutCarrossel_Quests {
+
+    font-size: 2.3rem;
+  }
+
+  .AboutCarrossel_box-Opinion {
+
+    width: 220px;
+  }
+
+  .AboutCarrossel_box-Opinion p{
+
+    font-size: 1.3rem;
+  }
+
+  .AboutCarrossel_box-Opinion h1{
+
+    color: black;
+
+    font-size: 1.8rem;
+    font-family: "Chakra Petch", sans-serif;
+    letter-spacing: 1px;
+    text-align: start;
+    margin: 0;
+  }
+
+  .AboutCarrossel_box-TXT {
+
+    font-size: 1.3rem;
+  }
+
+  .AboutCarrossel_box-name-user {
+
+    color: black;
+
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .AboutCarrossel_backgroud {
+
+    width: 80%;
+    max-width: 450px;
+    height: 400px;
+
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .AboutCarrossel_content {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AboutCarrossel_box {
+
+    width: 100%;
+    max-width: 700px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .AboutCarrossel_box {
+
+    width: 100%;
+
+    padding: 8rem .50rem .50rem .50rem;
+
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+  .AboutCarrossel_box {
+
+    width: 100%;
+
+    padding: 8rem .50rem .50rem .50rem;
+
+    box-sizing: border-box;
+  }
+}

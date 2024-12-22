@@ -1,0 +1,113 @@
+@media screen and (min-width: 358px) {
+ 
+  
+  .PageNotFound {
+
+   
+  }
+
+  .PageNotFound_content {
+
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .PageNotFound_box {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
+
+  .PageNotFound_box-Image{
+
+    width: 100%;
+    height: 270px;
+
+    background-image: url("../../../public/404/404_00.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .PageNotFound_Error {
+
+    position: absolute;
+    top: 16%;
+  }
+
+  .PageNotFound_Error h1 {
+
+    color: white;
+  }
+
+  .PageNotFound_description {
+
+    width: 100%;
+  }
+
+  .PageNotFound_description h1 {
+
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+  }
+
+  .PageNotFound_description strong {
+
+    color: orangered;
+  }
+
+  .PageNotFound_box-back {
+
+    width: 100%;
+
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageNotFound_box-back a {
+
+    background-color: orange;
+    color: white;
+
+    border: 1px solid yellow;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  
+  .PageNotFound {
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .PageNotFound_content {
+
+    max-width: 540px;
+    height: auto;
+
+    padding-top: 5rem;
+  }
+}

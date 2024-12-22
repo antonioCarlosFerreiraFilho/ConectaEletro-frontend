@@ -1,0 +1,79 @@
+@media screen and (min-width: 358px) {
+
+  .Search {
+
+    box-sizing: border-box;
+  }
+
+  .Search-content {
+
+    padding-bottom: 4rem;
+  }
+
+  .Search-content-searchUser h1 {
+
+    font-size: 1.1rem;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    text-align: center;
+
+    margin: 1rem 0 0 0;
+  }
+
+  .Search-boxes-all {
+    padding: .4rem;
+  }
+
+  .Search-boxes-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  /*-------------------*/
+
+  .CardGallery_box-views-wrap {
+
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .CardGallery_box-views {
+
+    background-color: rgb(250, 248, 248);
+
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+
+    margin-top: 2rem;
+
+  }
+
+  .CardGallery_box-views:hover .CardGallery_Image {
+
+    transition: all ease-in-out 600ms;
+    transform: translateX(-20px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  
+
+  .CardGallery_box-views {
+
+    
+  }
+}

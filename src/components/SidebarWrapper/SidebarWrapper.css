@@ -1,0 +1,263 @@
+@media screen and (min-width: 358px) {
+
+  .SidebarWrapper {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  .SidebarWrapper {
+
+    display: block;
+    width: 100%;
+    height: 1250px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .SidebarWrapper_box-All {
+
+    background-color: rgb(246, 244, 244);
+    width: 98%;
+  }
+
+  .SidebarWrapper_card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .SidebarWrapper_card-boxes {
+    width: 100%;
+  }
+
+  .SidebarWrapper_card-box-search {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+  }
+
+  .SidebarWrapper_card-input {
+
+    width: 80%;
+    height: 40px;
+    max-height: 40px;
+
+    font-size: 1.1rem;
+
+    border: none;
+    border-top: 1px solid orange;
+    border-left: 1px solid orange;
+    border-radius: 10px 0px 0px 10px;
+
+    outline: none;
+
+    padding: 0 .5rem 0 .5rem;
+    margin: 0;
+  }
+
+  .SidebarWrapper_card-box-icon {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+  }
+
+  .SidebarWrapper_card-inputSearch {
+
+
+    background-color: white;
+
+    width: 100%;
+    height: 41px;
+
+    border: none;
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-radius: 0px 10px 10px 0px;
+
+    outline: none;
+
+    padding: 0;
+    margin: 0;
+
+    cursor: pointer;
+  }
+
+  .SidebarWrapper_card-inputSearch {
+
+    background-image: url("../../../public/Background/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 33%;
+  }
+
+  /*------------------*/
+
+  .SidebarWrapper_card-NewPosts {}
+
+  .SidebarWrapper_card-NewPosts-boxesAll {}
+
+  .SidebarWrapper_card-NewPosts-card {
+
+    margin-bottom: 2rem;
+  }
+
+  .SidebarWrapper_card-NewPosts-title {
+
+    font-size: 1.1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+  .SidebarWrapper_card-NewPosts-imageInfo {
+
+    display: flex;
+
+    text-decoration: none;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .SidebarWrapper_card-NewPosts-box-image {
+
+    width: 40%;
+  }
+
+  .SidebarWrapper_card-NewPosts-box-image img {
+
+    width: 100%;
+    height: 90px;
+
+    border-radius: 10px;
+  }
+
+  .SidebarWrapper_card-NewPosts-infoService {
+
+    width: 60%;
+  }
+
+  .SidebarWrapper_card-NewPosts-infoService-title {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 0 0 15px;
+  }
+
+  .SidebarWrapper_card-NewPosts-infoService-info {
+
+    margin: 20px 0 0 15px;
+  }
+
+
+  /*------------------*/
+
+  .SidebarWrapper_card-imagesLink {
+
+    width: 100%;
+  }
+
+  .SidebarWrapper_card-imagesLink-title {}
+
+  .SidebarWrapper_card-imagesLink-content {}
+
+  .SidebarWrapper_card-imagesLink-box {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .SidebarWrapper_card-imagesLink-Link {
+
+    width: 49%;
+  }
+
+  .SidebarWrapper_card-imagesLink-Link img {
+
+    width: 100%;
+    height: 150px;
+
+    border-radius: 5px;
+  }
+
+  /*------------------*/
+
+  .SidebarWrapper_card-Tags {
+
+    width: 100%;
+  }
+
+  .SidebarWrapper_card-Tags-content {
+
+    margin-top: 4rem;
+  }
+
+  .SidebarWrapper_card-Tags-Title {
+
+    width: 100%;
+  }
+
+  .SidebarWrapper_card-Tags-Title h1 {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+
+  .SidebarWrapper_card-Tags-boxes {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .SidebarWrapper_card-Tags-boxes a {
+    
+    color: black;
+    background-color: rgb(230, 227, 227);
+
+
+    font-size: 1.1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    padding: 5px 10px;
+    text-decoration: none;
+
+    margin: 0px 5px 5px 0px;
+    transition: all ease-in-out 600ms;
+  }
+
+  .SidebarWrapper_card-Tags-boxes a:hover {
+
+    background-color: orange;
+    transition: all ease-in-out 600ms;
+  }
+}

@@ -1,0 +1,255 @@
+@media screen and (min-width: 358px) {
+ 
+  .Footer {
+
+
+  }
+
+  .Footer_content {
+
+    background-color: #252834;
+  }
+
+  .Footer_boxes {
+
+    padding: 1rem;
+  }
+
+  .Footer_box-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Footer_box-logo {
+
+    width: 212px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   position: relative;
+  }
+
+  .Footer_box-icon {
+
+    color: yellow;
+
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 23px;
+    left: 2px;
+
+    z-index: 1000;
+  }
+
+  .Footer_box-logo h1 {
+
+    color: white;
+
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .Footer_box-logo strong {
+
+    color: orange;
+
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .Footer_box-description {
+
+    text-align: center;
+  }
+
+  .Footer_box-description p{
+
+    color: rgb(203, 202, 201);
+
+    font-family: sans-serif;
+    line-height: 25px;
+    margin: 0;
+  }
+
+  .Footer_box-navigation {
+
+    padding-top: 2rem;
+  }
+
+  .Footer_box-navigation h1 {
+
+    color: orange;
+
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: "Abel", sans-serif;
+    text-align: center;
+  }
+
+  .Footer_box-navigation ul {
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .Footer_box-navigation li {
+
+    padding: 0;
+    margin: 1rem 0 0 0;
+  }
+
+  .Footer_box-navigation a {
+
+    color: white;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .Footer_box-About {
+
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .Footer_box-About h1{
+
+    color: orange;
+
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: "Abel", sans-serif;
+    text-align: center;
+  }
+
+  .Footer_box-content-infos {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Footer_box-content-infos p{
+
+    color: white;
+
+    font-size: .9rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .Footer_box-content-description {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Footer_box-content-icons {
+
+    color: orange;
+
+    margin-right: 10px;
+  }
+
+  .Footer_box-Copyright {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2rem;
+  }
+
+  .Footer_box-copyServices {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Footer_box-Copyright-icon {
+
+    color: white;
+
+    margin-right: 5px;
+  }
+
+  .Footer_box-Copyright h1{
+
+    color: rgb(196, 193, 193);
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  .Footer_box-Copyright p{
+
+    color: rgb(196, 193, 193);
+
+    font-family: sans-serif;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .Footer_box-description {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Footer_box-des {
+
+    width: 400px;
+  }
+
+  .Footer_box-description p{
+
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Footer_box-des {
+
+    width: 380px;
+  }
+
+  .Footer_desckStyle {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .Footer_box-About {
+
+    width: 360px;
+    padding-top: 2rem;
+  }
+}

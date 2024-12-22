@@ -1,0 +1,260 @@
+@media screen and (min-width: 358px) {
+ 
+  .ServiceCarrossel {
+
+
+  }
+
+  .ServiceCarrossel_box-intro {
+
+    width: 100%;
+
+    padding-top: .1rem;
+  }
+
+  .ServiceCarrossel_box-des p{
+
+    color: rgb(189, 126, 10);
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 3rem 0 0 0;
+  }
+
+  .ServiceCarrossel_box-intro h1 {
+
+    color: black;
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+
+  .ServiceCarrossel_box-Txt {
+
+    display: flex;
+    justify-content: center;
+
+    padding: .70rem;
+  }
+
+  .ServiceCarrossel_box-TXT-content {
+
+    max-width: 520px;
+  }
+
+  .ServiceCarrossel_box-Txt p{
+
+    color: rgb(44, 43, 43);
+
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  /*---------CARROSSEL STYLE---------*/
+
+  .ServiceCarrossel_Carrossel {
+
+    width: 100%;
+    overflow: hidden;
+    
+    margin: 1rem 0 1rem 0;
+  }
+
+
+  .ServiceCarrossel_content {
+
+    width: 400%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+  .ServiceCarrossel_content::-webkit-scrollbar {
+
+    display: none;
+  }
+
+  .ServiceCarrossel_content-boxes {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+     overflow-y: hidden;
+
+    transition: all ease-in-out 2s;
+  }
+
+  .ServiceCarrossel_card {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem 0 1rem 0 ;
+  }
+
+  .ServiceCarrossel_cardBOX {
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .ServiceCarrossel_card-description {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ServiceCarrossel_card-description img{
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .ServiceCarrossel_card-description h1 {
+
+    color: black;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    margin: .50rem 0 0 0;
+  }
+
+  .ServiceCarrossel_card-List {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+  }
+
+  .ServiceCarrossel_card-List ul{
+
+    width: 90%;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .ServiceCarrossel_card-List li {
+
+    color: rgb(44, 43, 43);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+
+    margin: .8rem 0 0 0;
+  }
+
+  .ServiceCarrossel_card-List li::before {
+
+    content: "✅";
+ 
+    width: 20px;
+    height: 20px;
+
+    margin-right: 3px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .ServiceCarrossel_cardBOX {
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+    box-sizing: border-box;
+    padding: 2rem 0 2rem 0;
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ServiceCarrossel_content {
+
+    width: 200%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .ServiceCarrossel_StyleDesck {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .ServiceCarrossel_Carrossel {
+
+    width: 1000px;
+    overflow: hidden;
+    
+    margin: 1rem 0 1rem 0;
+  }
+
+
+  .ServiceCarrossel_content {
+
+    width: 200%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+  .ServiceCarrossel_content::-webkit-scrollbar {
+
+    display: none;
+  }
+
+  .ServiceCarrossel_content-boxes {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+     overflow-y: hidden;
+
+    transition: all ease-in-out 2s;
+  }
+}

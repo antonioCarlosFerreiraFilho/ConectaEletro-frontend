@@ -1,0 +1,367 @@
+@media screen and (min-width: 358px) {
+
+  .LoginRegister {
+
+    background-image: url("../../../public/Background/hero_1.jpg");
+    background-position: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+  }
+
+  .LoginRegister_content {
+
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+  }
+
+  .LoginRegister_box {
+
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+  }
+
+  .LoginRegister_card {
+
+    width: 100%;
+
+    margin: .5rem;
+    padding: .5rem;
+  }
+
+  .LoginRegister_card-Box-Event {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  /*button click SignIn */
+
+  .LoginRegister_content-SignIn {
+
+    background-color: #33B3EC;
+
+    width: 49%;
+    height: 45px;
+
+    border-radius: 10px 10px 0 0;
+
+    border-bottom: 1px solid rgb(241, 237, 237);
+
+    cursor: pointer;
+  }
+
+  .LoginRegister_content-SignIn.active {
+
+    background-color: #FDFDFD;
+  }
+
+  .LoginRegister_content-SignIn-content {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .LoginRegister_content-SignIn-content p {
+
+    color: white;
+
+    font-size: 1rem;
+
+    margin: 0 0 0 5px;
+  }
+
+  .LoginRegister_content-SignIn.active .LoginRegister_content-SignIn-content p {
+
+    color: black;
+
+    font-size: 1rem;
+
+    margin: 0 0 0 5px;
+  }
+
+  .LoginRegister_content-SignIn-icon {
+
+    color: white;
+
+    font-size: 1.2rem;
+  }
+
+  .LoginRegister_content-SignIn.active .LoginRegister_content-SignIn-icon {
+
+    color: rgb(116, 116, 219);
+
+    font-size: 1.2rem;
+  }
+
+  /*button click Registration */
+
+  .LoginRegister_content-Registration {
+
+    background-color: #33B3EC;
+
+    width: 49%;
+    height: 45px;
+
+    border-radius: 10px 10px 0 0;
+
+    border-bottom: 1px solid rgb(241, 237, 237);
+
+    cursor: pointer;
+  }
+
+  .LoginRegister_content-Registration.active {
+
+    background-color: #FDFDFD;
+
+    width: 49%;
+    height: 45px;
+
+    border-radius: 10px 10px 0 0;
+
+    border-bottom: 1px solid rgb(241, 237, 237);
+  }
+
+  .LoginRegister_content-Registration-content {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .LoginRegister_content-Registration-content p {
+
+    color: white;
+
+    font-size: 1rem;
+
+    margin: 0 0 0 5px;
+  }
+
+  .LoginRegister_content-Registration.active .LoginRegister_content-Registration-content p {
+
+    color: black;
+
+    font-size: 1rem;
+
+    margin: 0 0 0 5px;
+  }
+
+  .LoginRegister_content-Registration-icon {
+
+    color: white;
+
+    font-size: 1.2rem;
+  }
+
+  .LoginRegister_content-Registration.active .LoginRegister_content-Registration-icon {
+
+    color: rgb(116, 116, 219);
+
+    font-size: 1.2rem;
+  }
+
+  .LoginRegister_card-Boxes-interval {
+
+    position: relative;
+  }
+
+  .LoginRegister_card-Box-description-login {
+
+    background-color: white;
+
+    width: 100%;
+    height: auto;
+
+    padding: .8rem;
+    box-sizing: border-box;
+
+    border-radius: 0px 0px 10px 10px;
+
+    position: absolute;
+    top: 0;
+
+    display: none;
+  }
+
+  .LoginRegister_card-Box-description-loginJS {
+
+    display: block;
+  }
+
+  .LoginRegister_card-Box-description-register {
+
+    background-color: white;
+
+    width: 100%;
+    height: auto;
+
+    padding: .8rem;
+    box-sizing: border-box;
+
+    border-radius: 0px 0px 10px 10px;
+
+    position: absolute;
+    top: 0;
+
+    display: block;
+  }
+
+  .LoginRegister_card-Box-description-registerJS {
+
+    display: none;
+  }
+
+  .LoginRegister_card-Box-title h1 {
+
+    font-size: 1.5rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    margin: 0;
+  }
+
+  .LoginRegister_card-Box-title-Line {
+
+    background-color: rgb(119, 146, 255);
+
+    width: 50px;
+    height: 2px;
+
+    margin-top: .5rem;
+  }
+
+  .LoginRegister_card-Box-desSlogan p {
+
+
+    font-size: 1.1rem;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .LoginRegister_card-Box-form {
+
+
+  }
+
+  .LoginRegister_card-form input{
+
+    background-color: transparent;
+
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    border-bottom: 1px solid rgb(199, 196, 196);
+    outline: none;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+    padding: .2rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+
+  .LoginRegister_card-form input::placeholder{
+
+    font-size: .9rem;
+  }
+
+  .LoginRegister_card-Box-submit {
+
+    width: 100%;
+  }
+
+  .LoginRegister_card-Box-submit input{
+
+    background-color: #2D5BE3;
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    border-radius: 5px;
+
+    margin-top: 1.5rem;
+
+    width: 40%;
+
+    cursor: pointer;
+  }
+
+  .LoginRegister_card-Box-redirect {
+
+  }
+
+  .LoginRegister_card-Box-redirectArrow {
+
+    display: flex;
+    align-items: center;
+
+    margin: 1rem 0 .5rem 0;
+  }
+
+  .LoginRegister_card-Arrow {
+
+    color: #2D5BE3;
+
+    font-size: 1rem;
+  }
+
+  .LoginRegister_card-Box-redirectArrow a {
+
+    color: #2D5BE3;
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /*MESSAGE ERROR*/
+
+  .LoginRegister_card-contentMessageError {
+
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .LoginRegister_card-contentMessageError-box {
+
+    background-color: red;
+
+    width: 100%;
+    height: 50px;
+
+    margin-top: .5rem;
+    padding: .2rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}

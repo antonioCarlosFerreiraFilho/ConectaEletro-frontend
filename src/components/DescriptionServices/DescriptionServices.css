@@ -1,0 +1,176 @@
+@media screen and (min-width: 358px) {
+
+  .DescriptionServices {}
+
+  .DescriptionServices_content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 0rem 0 2rem 0;
+  }
+
+  .DescriptionServices_boxes {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+
+    box-sizing: border-box;
+  }
+
+  .DescriptionServices_box {
+
+    max-width: 430px;
+  }
+
+  .DescriptionServices_box-title h1 {
+
+    color: black;
+
+    font-size: 1.6rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .DescriptionServices_description {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0rem 0rem 2rem 0rem;
+  }
+
+  .DescriptionServices_box-moon-icon {
+
+    position: relative;
+  }
+
+  .DescriptionServices_moon-icon {
+
+    background-color: rgb(236, 229, 229);
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+  }
+
+  .DescriptionServices_icon {
+
+    color: black;
+
+    font-size: 2rem;
+
+    position: absolute;
+    top: 25px;
+    left: 9px;
+
+    z-index: 10;
+  }
+
+  .DescriptionServices_des-info {
+
+    margin-left: 20px;
+  }
+
+  .DescriptionServices_des-info h1 {
+
+    color: black;
+
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+
+  .DescriptionServices_des-info p {
+
+    color: black;
+
+    font-family: sans-serif;
+    line-height: 22px;
+    margin: 1rem 0 0 0;
+  }
+
+  /*------------------*/
+
+  .DescriptionServices_Call {}
+
+  .DescriptionServices_Call-box {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+
+    box-sizing: border-box;
+  }
+
+  .DescriptionServices_Call-Link {}
+
+  .DescriptionServices_Call-Link a {
+
+    background-color: black;
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  .DescriptionServices_Call-PhoneLink {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+  }
+
+  .DescriptionServices_Call-Phone img {
+
+    width: 50px;
+  }
+
+  .DescriptionServices_Call-linkClick {
+
+    margin-left: 30px;
+  }
+
+  .DescriptionServices_Call-linkClick a {
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .DescriptionServices_Call-linkClick p {
+
+    font-size: 1rem;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    margin: 0;
+  }
+}

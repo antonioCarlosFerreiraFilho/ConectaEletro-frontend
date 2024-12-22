@@ -1,0 +1,612 @@
+@media screen and (min-width: 358px) {
+ 
+  .InfoCustomers {
+
+    background-color: #252834;
+  }
+
+  .InfoCustomers_container {
+
+    position: static;
+  }
+
+  .InfoCustomers_content-infos {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0 3rem 0;
+  }
+
+  .InfoCustomers_statistics {
+
+    color: orangered;
+
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+  }
+
+  .InfoCustomers_title-P h1{
+
+    color: white;
+
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_box-numbers h1{
+
+    color: white;
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_box-numbers p{
+
+    color: white;
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_numbers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  .InfoCustomers_numbers-descriprion p{
+
+    color: white;
+
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+
+    margin: 0;
+  }
+
+  /*-----------------*/
+
+  .InfoCustomers_carrossel {
+
+    background-color: white;
+
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    
+    margin: 1rem 0 0rem 0;
+
+    position: relative;
+    z-index: 200;
+  }
+
+  .InfoCustomers_carrossel-scrroll {
+
+    width: 400%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+  }
+
+  .InfoCustomers_carrossel-scrroll::-webkit-scrollbar {
+
+    display: none;
+  }
+
+  .InfoCustomers_carrossel-boxes {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+     overflow-y: hidden;
+
+    transition: all ease-in-out 2s;
+
+   
+  }
+
+  .InfoCustomers_carrossel-card {
+
+    width: 100%;
+
+    padding: 2rem .50rem 2rem .50rem;
+    box-sizing: border-box;
+  }
+
+  .InfoCustomers_carrossel-description {
+
+    display: flex;
+    
+  }
+
+  .InfoCustomers_carrossel-image {
+
+    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+  }
+
+  .InfoCustomers_carrossel-info-user {
+
+    width: 280px;
+
+    display: flex;
+    flex-direction: column;
+   
+
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-info-user p {
+
+    color: orangered;
+
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-info-user h1 {
+
+    color: black;
+
+    font-size: 1.5rem;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-comments {
+
+    padding: 1.2rem .50rem .50rem .50rem;
+    box-sizing: border-box;
+  }
+
+  .InfoCustomers_carrossel-TXT p{
+
+    color: black;
+
+    font-size: 1rem;
+    line-height: 22px;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+  }
+
+  .InfoCustomers_name-users {
+
+    width: 100%;
+  }
+
+  .InfoCustomers_name-users p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  /*---------------------------*/
+
+  .InfoCustomers_servicesEmergency {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 200px;
+
+    margin-bottom: 8rem;
+  }
+
+  .InfoCustomers_servicesEmergency-boxes {
+
+    position: relative;
+  }
+
+  .InfoCustomers_servicesEmergency-back {
+
+    background-color: rgb(236, 92, 39);
+
+    width: 300px;
+    height: 200px;
+
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+    z-index: 4000;
+  }
+
+  .InfoCustomers_servicesEmergency-description {
+
+    padding: .50rem 1.4rem .50rem 1.4rem;
+    box-sizing: border-box;
+  }
+
+  .InfoCustomers_servicesEmergency-description h1{
+    color: white;
+
+    font-size: 1.5rem;
+    font-family: "Chakra Petch", sans-serif;
+    margin: .50rem 0 0 0;
+  }
+
+  .InfoCustomers_servicesEmergency-description p{
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  .InfoCustomers_servicesEmergency-icons-numbers {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+  }
+
+  .InfoCustomers_servicesEmergency-icons {
+
+    color: white;
+
+    margin-right: 10px;
+  }
+
+  .InfoCustomers_servicesEmergency-icons-numbers p {
+
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .InfoCustomers_box-Desk {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .InfoCustomers_container {
+
+    position: relative;
+  }
+
+  .InfoCustomers_servicesEmergency {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 70%;
+    height: 370px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    z-index: 100;
+
+    margin-bottom: 0rem;
+  }
+
+  .InfoCustomers_servicesEmergency-back {
+
+    background-color: rgb(236, 92, 39);
+
+    width: 63%;
+    max-width: 310px;
+    height: 200px;
+
+    position: absolute;
+    top: -20%;
+    right: 0;
+
+    z-index: 4000;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .InfoCustomers_content-infos {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .InfoCustomers_carrossel {
+
+    background-color: white;
+
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    overflow: hidden;
+    
+    margin: 1rem 0 0rem 0;
+
+    position: relative;
+    z-index: 200;
+  }
+
+  .InfoCustomers_carrossel-image {
+
+    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+  }
+
+  .InfoCustomers_carrossel-info-user {
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-info-user p {
+
+    color: orangered;
+
+    font-size: 1.4rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.2px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-info-user h1 {
+
+    color: black;
+
+    font-size: 1.9rem;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+  }
+
+  .InfoCustomers_carrossel-comments {
+
+    padding: 1.2rem .50rem .50rem .50rem;
+    box-sizing: border-box;
+  }
+
+  .InfoCustomers_carrossel-TXT p{
+
+    color: black;
+
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+  }
+
+  .InfoCustomers_name-users {
+
+    width: 100%;
+  }
+
+  .InfoCustomers_name-users p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  .InfoCustomers_servicesEmergency {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 70%;
+    height: 450px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    z-index: 100;
+
+    margin-bottom: 0rem;
+  }
+
+
+  .InfoCustomers_servicesEmergency-back {
+
+    background-color: rgb(236, 92, 39);
+
+    max-width: 400px;
+    height: 250px;
+
+    position: absolute;
+
+    bottom: 0;
+    right: 30%;
+
+    z-index: 4000;
+  }
+
+  /*-----------------------*/
+
+  .InfoCustomers_servicesEmergency-description h1{
+    color: white;
+
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    margin: .50rem 0 0 0;
+  }
+
+  .InfoCustomers_servicesEmergency-description p{
+
+    color: rgb(251, 246, 246);
+
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 29px;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  .InfoCustomers_servicesEmergency-icons-numbers {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+  }
+
+  .InfoCustomers_servicesEmergency-icons {
+
+    color: white;
+
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .InfoCustomers_servicesEmergency-icons-numbers p {
+
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 2000px)  {
+
+  .InfoCustomers_content-infos {
+
+    padding: 3rem 0 8rem 0;
+  }
+
+  .InfoCustomers_statistics {
+
+    color: orangered;
+
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+  }
+
+  .InfoCustomers_title-P h1{
+
+    color: white;
+
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_box-numbers h1{
+
+    color: white;
+
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_box-numbers p{
+
+    color: white;
+
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .InfoCustomers_numbers {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+  }
+
+  .InfoCustomers_numbers-descriprion p{
+
+    color: white;
+
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+
+    margin: 0;
+  }
+}

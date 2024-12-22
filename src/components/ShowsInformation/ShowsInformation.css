@@ -1,0 +1,317 @@
+@media screen and (min-width: 358px){
+
+  .ShowsInformation {
+
+    display: none;
+  }
+} 
+
+
+@media screen and (min-width: 700px) {
+ 
+  .ShowsInformation {
+    display: block;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .ShowsInformation_content {
+
+    width: 100%;
+    height: 500px;
+
+    overflow: hidden;
+  }
+
+  .ShowsInformation_boxes {
+
+    width: 105%;
+
+    display: flex;
+    position: relative;
+  }
+
+  .ShowsInformation_shadowBox {
+
+    background-color: #00000050;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ShowsInformation_box01 {
+
+    background-image: url("../../../public/Background/slideinfo-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 36%;
+    height: 500px;
+
+    transform: skew(12deg, 0);
+    position: absolute;
+    top: 0;
+    left: -52px;
+
+    transition: all  ease 1s;
+  }
+
+  .ShowsInformation_box01:hover {
+    width: 37%;
+    transition: all  ease 200ms;
+    scale: 1.1;
+  }
+
+  .ShowsInformation_box02 {
+
+    background-image: url("../../../public/Background/slideinfo-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 38%;
+    height: 500px;
+    transform: skew(12deg, 0);
+    transition: all  ease 1s;
+    position: absolute;
+    top: 0;
+    right: -17px;
+  }
+
+  .ShowsInformation_box02:hover {
+
+    width: 39%;
+    transition: all  ease 200ms;
+    scale: 1.1;
+  }
+
+  .ShowsInformation_box03 {
+
+    background-image: url("../../../public/Background/slideinfo-02\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 36%;
+    height: 500px;
+
+    transform: skew(12deg, 0);
+    transition: all  ease 1s;
+    position: absolute;
+    top: 0;
+    right: 35.1%;
+  }
+
+  .ShowsInformation_box03:hover {
+
+    width: 38%;
+    transition: all  ease 200ms;
+    scale: 1.1;
+  }
+
+  /*content Div 01*/
+
+
+  .ShowsInformation_box-contentButtons {
+
+
+    width: 100%;
+    height: 100%;
+
+    transform: skew(-12deg, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ShowsInformation_box-contentButtons h1{
+
+    color: white;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    margin: 0 0 .70rem 0;
+  }
+
+
+  .ShowsInformation_box-infoPlus {
+
+
+  
+  }
+
+  .ShowsInformation_box-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease-in-out 200ms;
+    opacity: 1;
+  }
+
+  .ShowsInformation_button {
+
+    background-color: rgb(229, 152, 8);
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease-in-out 2s;
+    cursor: pointer;
+
+    animation: beating 2s ease-in-out infinite;
+  }
+
+  .ShowsInformation_icons-plus {
+
+    color: white;
+
+    font-size: 1.1rem;
+
+    animation: overshadowing 2s ease-in-out infinite;
+  }
+
+  .ShowsInformation_box-TxtDescription {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    width: 100%;
+    height: 0;
+
+    overflow: hidden;
+    padding: .2rem;
+    transition: all ease 600ms;
+  }
+
+  .ShowsInformation_box01:hover .ShowsInformation_box-TxtDescription {
+
+    visibility: visible;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    transition: all ease 1s;
+  }
+
+  .ShowsInformation_box02:hover .ShowsInformation_box-TxtDescription {
+
+    visibility: visible;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    transition: all ease 1s;
+  }
+
+  .ShowsInformation_box03:hover .ShowsInformation_box-TxtDescription {
+
+    visibility: visible;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    transition: all ease 1s;
+  }
+
+  .ShowsInformation_box01:hover .ShowsInformation_box-button {
+
+    transition: all ease-in-out 200ms;
+    opacity: 0;
+  }
+
+  .ShowsInformation_box02:hover .ShowsInformation_box-button {
+
+    transition: all ease-in-out 200ms;
+    opacity: 0;
+  }
+
+  .ShowsInformation_box03:hover .ShowsInformation_box-button {
+
+    transition: all ease-in-out 200ms;
+    opacity: 0;
+  }
+
+  .ShowsInformation_box-TxtDescription-content {
+
+    width: 180px;
+
+    transform: translateX(19px);
+  }
+
+  .ShowsInformation_box-TxtDescription-content02 {
+
+    width: 195px;
+
+    padding: .2rem;
+    transform: translateX(-15px);
+    box-sizing: border-box;
+  }
+
+  .ShowsInformation_box-TxtDescription-content03 {
+
+    width: 180px;
+
+    transform: translateX(0px);
+    box-sizing: border-box;
+  }
+
+  .ShowsInformation_box-TxtDescription p{
+
+    color: white;
+
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .ShowsInformation_content {
+
+    width: 100%;
+    height: 700px;
+
+    overflow: hidden;
+  }
+
+  .ShowsInformation_box01 {
+
+    width: 36%;
+    height: 700px;
+    left: -74px;
+  }
+
+  .ShowsInformation_box02 {
+    width: 38%;
+    height: 700px;
+    right: -24px;
+  }
+
+  .ShowsInformation_box03 {
+
+    width: 36%;
+    height: 700px;
+
+    right: 35.1%;
+  }
+
+}

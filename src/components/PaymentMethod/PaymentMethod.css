@@ -1,0 +1,178 @@
+@media screen and (min-width: 358px) {
+  
+ 
+  .PaymentMethod_content {
+
+    background-color: rgb(248, 245, 245);
+
+    padding: 3rem 1rem 3rem 1rem;
+    box-sizing: border-box;
+  }
+
+  .PaymentMethod_description h1{
+
+    color: orangered;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .PaymentMethod_description p {
+
+    color: rgb(65, 63, 63);
+
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .PaymentMethod_method {
+
+    background-color: white;
+    padding: .50rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+  }
+
+  .PaymentMethod_method-mbWay {
+
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+  }
+
+  .PaymentMethod_method-icon {
+
+    color: orangered;
+
+    font-size: 3rem;
+  }
+
+  .PaymentMethod_method-image {
+
+    background-image: url("../../../public/payMethod/MbWay.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 23%;
+    height: 40px;
+
+    margin-bottom: .40rem;
+  }
+
+  .PaymentMethod_method-icon-cash {
+
+    color: rgb(12, 164, 12);
+
+    font-size: 3rem;
+  }
+
+
+  .PaymentMethod_method-description p{
+
+    color: black;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    margin: 0 0 0 0;
+  }
+
+  .PaymentMethod_method-info p{
+
+    color: rgb(65, 63, 63);
+
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 440px) {
+
+  .PaymentMethod {
+
+
+  }
+
+  .PaymentMethod_content {
+
+
+  }
+
+
+  .PaymentMethod_description {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PaymentMethod_description h1{
+
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .PaymentMethod_box-contentTxT {
+
+    width: 300px;
+  }
+
+  .PaymentMethod_description p {
+
+    color: rgb(65, 63, 63);
+
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .PaymentMethod_methods {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PaymentMethod_method {
+
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .PaymentMethod_content {
+
+    padding: 3rem 0 3rem 0;
+  } 
+
+
+  .PaymentMethod_methods {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .PaymentMethod_method {
+
+    width: 31%;
+    max-width: 400px;
+  }
+}

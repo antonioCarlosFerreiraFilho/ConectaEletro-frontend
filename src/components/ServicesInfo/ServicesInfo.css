@@ -1,0 +1,251 @@
+@media screen and (min-width: 358px) {
+ 
+  .ServicesInfo {
+
+
+  }
+
+  .ServicesInfo_container {
+
+    width: 100%;
+
+    padding: 4rem 1rem 1rem 1rem; 
+    box-sizing: border-box;
+  }
+
+  .ServicesInfo_new-info p{
+
+    color: orangered;
+
+    font-size: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .ServicesInfo_new-info h1{
+
+    color: black;
+
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .ServicesInfo_new-Links {
+
+    margin-top: 4rem;
+  }
+
+  .ServicesInfo_new-data p{
+
+    color: rgb(156, 147, 147);
+
+    font-size: 1rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .ServicesInfo_boxes {
+
+    display: flex;
+  }
+
+  .ServicesInfo_boxes p{
+
+    color: rgb(1, 1, 1);
+
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .ServicesInfo_new-line {
+
+    background-color: orange;
+
+    width: 3px;
+    height: auto;
+
+    margin-right: 10px;
+  }
+
+  .ServicesInfo_txt-description {
+
+    margin-top: 1rem;
+  }
+
+  .ServicesInfo_txt-description p{
+
+    color: rgb(1, 1, 1);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 22px;
+    margin: 0 0 0 0;
+  }
+
+  .ServicesInfo_txt-Link {
+
+    margin-top: 1rem;
+  }
+
+  .ServicesInfo_txt-Link a{
+
+    color: black;
+
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  
+  .ServicesInfo_new-contentBoxes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .ServicesInfo_new-Links {
+
+    width: 48%;
+  }
+
+  .ServicesInfo_container {
+
+    padding: 4rem 1rem 4rem 1rem; 
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+
+  .ServicesInfo_new-contentBoxes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .ServicesInfo_new-Links {
+
+    width: 48%;
+  }
+
+  .ServicesInfo_container {
+
+    padding: 4rem 1rem 4rem 1rem; 
+    box-sizing: border-box;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .ServicesInfo {
+
+    width: 100%;
+  }
+
+
+  .ServicesInfo_new-info {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ServicesInfo_new-info p{
+
+    color: orangered;
+
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .ServicesInfo_new-info h1{
+
+    color: black;
+
+    font-size: 2.3rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+  .ServicesInfo_new-contentBoxes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+
+  .ServicesInfo_new-Links {
+
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .ServicesInfo {
+
+    width: 100%;
+  }
+
+  .ServicesInfo_container {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    box-sizing: border-box;
+  }
+  
+  .ServicesInfo_new-contentBoxes {
+
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    gap: 0;
+  }
+
+  .ServicesInfo_new-Links {
+
+    width: 45%;
+    max-width: 450px;
+  }
+
+  .ServicesInfo_container {
+
+    padding: 4rem 1rem 4rem 1rem; 
+    box-sizing: border-box;
+  }
+}

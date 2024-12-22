@@ -1,0 +1,28 @@
+@media screen and (min-width: 1025px) {
+  
+
+  .Article_content {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Article_id-SideBar {
+
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Article_id {
+
+    width: 70%;
+  }
+
+  .Article_SideBar {
+
+    width: 30%;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,104 @@
+@media screen and (min-width: 358px) {
+  
+  .InfoTopHeader {
+
+    width: 100%;
+    
+    position: sticky;
+    top: 0px;
+
+    z-index: 7000;
+  }
+
+  .InfoTopHeader_content {
+
+    background-color: #252834;
+
+    width: 100%;
+
+   
+
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .InfoTopHeader_box {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .InfoTopHeader_content-icons {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Desk-Info {
+
+    display: none;
+  } 
+
+  .InfoTopHeader_icon {
+
+    color: rgb(234, 191, 37);
+
+    font-size: 1.1rem;
+    margin-right: 10px;
+  }
+
+  .InfoTopHeader_content-icons p{
+
+    color: white;
+
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .InfoTopHeader {
+
+   
+  }
+
+  .InfoTopHeader_content {
+
+    background-color: #252834;
+
+    width: 100%;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .Desk-Info {
+
+     display: flex;
+    align-items: center;
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+
+  .InfoTopHeader {
+
+    background-color: #252834;
+
+    width: 100%;
+   
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .InfoTopHeader_content {
+
+    
+    max-width: 1000px;
+  }
+} 

@@ -1,0 +1,186 @@
+@media screen and (min-width: 358px) {
+
+  .FormContact {
+
+    width: 100%;
+  }
+
+  .FormContact_content {
+
+    width: 100%;
+  }
+
+  .FormContact_box-infos {
+
+    padding: 3rem 1rem 0rem 1rem;
+  }
+
+  .FormContact_content-messageError {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .FormContact_content-message {
+
+    width: 90%;
+  }
+
+  .FormContact_content-infos h1 {
+
+    color: orange;
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .FormContact_content-slogan p {
+
+    color: black;
+
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+
+  .FormContact_content-description p {
+
+    color: black;
+
+    line-height: 20px;
+    text-align: center;
+    margin: .50rem 0 0 0;
+  }
+
+  .FormContact_form-content {
+
+    width: 100%;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .FormContact_form {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 1rem 0 0 0;
+  }
+
+  .FormContact_form input {
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 1.1rem;
+
+    padding: .60rem;
+    border: none;
+    border-right: 1px solid orangered;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+  }
+
+  .FormContact_form input::placeholder {
+
+    color: rgb(180, 160, 160);
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  .FormContact_form textarea {
+
+    width: 100%;
+    height: 100px;
+
+    font-size: 1.1rem;
+
+    padding: .60rem;
+    border: none;
+    border-right: 1px solid orangered;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+  }
+
+  .FormContact_form textarea::placeholder {
+
+    color: rgb(180, 160, 160);
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  .FormContact_box-submit {}
+
+  .FormContact_box-submit p {
+
+    color: rgb(81, 78, 78);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .FormContact_box-inputSubmit {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FormContact_box-inputSubmit input {
+
+    background-color: rgb(188, 126, 11);
+    color: white;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 460px) {
+
+  .FormContact {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .FormContact_content {
+
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .FormContact_content-description {
+
+    max-width: 400px;
+  }
+
+  .FormContact_content-infos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,316 @@
+@media screen and (min-width: 358px) {
+ 
+  .CarouselServices {
+
+    width: 100%;
+    overflow: hidden;
+   
+    scrollbar-width: none;
+  }
+
+  .CarouselServices_content {
+
+    width: 630%;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .CarouselServices_content::-webkit-scrollbar {
+
+    display: none;
+  }
+
+
+  .CarouselServices_boxes {
+
+    width: 100%;
+    height: 400px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+    overflow-y: hidden;
+    position: relative;
+
+    transition: all ease-in-out 2s;
+  }
+
+  /*-------------------------*/
+
+  .CarouselServices_box {
+
+    width: 100%;
+    height: 370px;
+
+    position: relative;    
+  }
+
+  .CarouselServices_image-service {
+
+    width: 100%;
+    height: 250px;
+
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CarouselServices_image-content-box {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+  .CarouselServices_image-content-box01 {
+
+    background-image: url("../../../public/CardsImages/pexels-cristian-rojas-8853502.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+
+  .CarouselServices_image-content-box02 {
+
+    background-image: url("../../../public/CardsImages/pexels-hoan-ng-c-510735-6961110.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+  .CarouselServices_image-content-box03 {
+
+    background-image: url("../../../public/CardsImages/pexels-cristian-rojas-8853502.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+  .CarouselServices_image-content-box04 {
+
+    background-image: url("../../../public/CardsImages/image01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+  .CarouselServices_image-content-box05 {
+
+    background-image: url("../../../public/CardsImages/image02.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 89%;
+    height: 84%;
+  }
+
+
+
+  .CarouselServices_infos-service {
+
+    width: 85%;
+    height: 190px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .CarouselServices_infos-service-des {
+
+    background-color: white;
+
+    width: 88%;
+    height: 100%;
+
+    box-sizing: border-box;
+  }
+
+  .CarouselServices_infos-title {
+
+    border-left: 3px solid orange;
+    padding: 5px;
+  }
+
+  .CarouselServices_infos-title h1{
+
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .CarouselServices_infos-txt {
+
+    padding: .5rem;
+  }
+
+  .CarouselServices_infos-txt p{
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .CarouselServices_link-projects {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15px;
+  }
+
+  .CarouselServices_link-projects a {
+
+    color: black;
+
+    font: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    margin: 0;
+  }
+
+  .CarouselServices_link-icon {
+
+    color: orangered;
+
+    margin-top: 4px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+
+  .CarouselServices_boxes {
+
+    height: 450px;
+  }
+
+
+  .CarouselServices_image-content-box {
+
+    width: 89%;
+    height: 94%;
+  }
+
+  .CarouselServices_infos-service {
+
+    height: 195px;
+  }
+
+  /*-------------------------*/
+
+  .CarouselServices_infos-title {
+
+    border-left: 5px solid orange;
+    padding: 5px;
+  }
+
+  .CarouselServices_infos-title h1{
+
+    font-size: 1.6rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .CarouselServices_infos-txt {
+
+    padding: .5rem;
+  }
+
+  .CarouselServices_infos-txt p{
+
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .CarouselServices_content-all {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CarouselServices {
+
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;    
+
+    scrollbar-width: none;
+  }
+
+  .CarouselServices_boxes {
+
+    width: 100%;
+    height: 400px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+    overflow-y: hidden;
+    position: relative;
+
+    transition: all ease-in-out 2s;
+  }
+
+  /*-------------------------*/
+
+  .CarouselServices_box {
+
+    width: 100%;
+    max-width: 570px;
+    height: 370px;
+
+    position: relative;    
+  }
+ 
+}
+
+@media screen and (min-width: 1440px)  {
+
+  .CarouselServices {
+
+    padding-top: 7rem;
+  }
+}

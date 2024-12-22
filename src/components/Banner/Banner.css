@@ -1,0 +1,924 @@
+@media screen and (min-width: 358px) {
+
+  .Banner {
+
+    width: 100%;
+
+    position: relative;
+  }
+
+  .Banner_content {
+
+    height: 300px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_content-box {}
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: 300px;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+    scale: 1;
+    transition: all ease-in-out 2s;
+    object-fit: cover;
+
+    filter: brightness(0.4);
+  }
+
+  .activeBanner {
+
+    opacity: 1;
+    scale: 1.4;
+    transition: all ease-in-out 4s;
+    filter: brightness(0.6);
+  }
+
+  .Banner_content-infos {
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+  }
+
+  .Banner_content-boxes-info {
+
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_info-none {
+
+    position: absolute;
+    top: -200px;
+    transition: all ease-in-out 1.2s;
+    text-align: center;
+  }
+
+  .activeInfo {
+
+    transition: all ease-in-out 2s;
+    top: 0px;
+  }
+
+  .Banner_info-none h1 {
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .Banner_info-offers-des {
+
+    color: rgb(255, 247, 247);
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+
+    text-align: center;
+
+    margin: .5rem 0 1rem 0;
+  }
+
+  .Banner_info-offers {
+
+    color: orange;
+
+    font-size: 1.2rem;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin: 0;
+  }
+
+  .Banner_info-none a {
+
+    background-color: rgb(199, 136, 19);
+    color: white;
+
+    padding: 5px 40px;
+
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  /*Animate BannerForm*/
+
+
+  .Banner_clickViews {
+
+    background-color: rgb(184, 125, 16);
+
+    width: 150px;
+    height: 30px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .20rem;
+    border-radius: 0px 10px 0 0;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    z-index: 1500;
+  }
+
+  .Banner_box-arrow {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .Banner_arrowDow {
+
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .Banner_arrowDowJS {
+
+    display: none;
+  }
+
+  .Banner_arrowTop {
+
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    display: none;
+  }
+
+  .Banner_arrowTopJS {
+
+    display: block;
+  }
+
+  .Banner_box-infoForm p {
+
+    color: white;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    margin: 0;
+  }
+
+  /*--------------*/
+
+  .Banner_content-form {
+
+    background-color: #252834;
+
+    width: 100%;
+    height: 0px;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    transition: all ease-in-out 1s;
+
+    position: relative;
+  }
+
+  .Banner_content-formJS {
+
+    background-color: #252834;
+
+    width: 100%;
+    height: 300px;
+
+    visibility: visible;
+    transition: all ease-in-out 1s;
+  }
+
+  /*STYLE FORM INPUTS*/
+
+  .Banner_form-content {
+
+    width: 100%;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .Banner_form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Banner_form input {
+
+    background-color: rgb(244, 241, 241);
+
+    height: 35px;
+
+    font-size: 1.1rem;
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: .60rem;
+    padding: .70rem;
+
+    box-sizing: border-box;
+  }
+
+
+  .Banner_form input::placeholder {
+
+    color: rgb(126, 121, 121);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  .Banner_form textarea {
+
+    background-color: rgb(244, 241, 241);
+
+    height: 130px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: .70rem;
+
+    box-sizing: border-box;
+  }
+
+  .Banner_form textarea::placeholder {
+
+    color: rgb(126, 121, 121);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  /*-----------------*/
+
+  .Banner_form-row {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Banner_form-row input {
+
+    width: 48%;
+    height: 35px;
+  }
+
+  /*-----------------*/
+
+  .Banner_form-boxSubmit {
+
+    width: 100%;
+
+    margin-top: .6rem;
+  }
+
+  .Banner_form-boxSubmit input {
+
+    background-color: orangered;
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+
+    cursor: pointer;
+  }
+
+  .popUpErrorMessage {
+
+    width: 350px;
+    height: 100px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+    overflow: hidden;
+  }
+
+
+  .popUpErrorMessage-content {
+
+   
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .Banner_content {
+
+    height: 400px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: 400px;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+    scale: 1;
+    transition: all ease-in-out 2s;
+    object-fit: cover;
+
+    filter: brightness(0.4);
+  }
+
+  .activeBanner {
+
+    opacity: 1;
+    scale: 1.4;
+    transition: all ease-in-out 4s;
+    filter: brightness(0.6);
+  }
+
+  /*-------------------------*/
+
+  .Banner_content-boxes-info {
+
+    width: 100%;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_info-none {
+
+    position: absolute;
+    top: -200px;
+    transition: all ease-in-out 1.2s;
+    text-align: center;
+  }
+
+  .activeInfo {
+
+    transition: all ease-in-out 2s;
+    top: 0px;
+  }
+
+  .Banner_info-none h1 {
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .Banner_info-offers-des {
+
+    color: rgb(255, 247, 247);
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Abel", sans-serif;
+
+    text-align: center;
+
+    margin: .5rem 0 1rem 0;
+  }
+
+  .Banner_info-offers {
+
+    color: orange;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin: 0;
+  }
+
+  .Banner_info-none a {
+
+    background-color: rgb(199, 136, 19);
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    padding: 5px 50px;
+
+    border-radius: 20px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .Banner_content {
+
+    height: 300px;
+  }
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .Banner_content-form {
+
+    height: 140px;
+
+    visibility: visible;
+  }
+
+  /*....Style buttom....*/
+
+  .Banner_clickViews {
+
+    width: 150px;
+    height: 35px;
+  }
+
+  .Banner_arrowDow {
+
+    display: none;
+  }
+
+  .Banner_arrowDowJS {
+
+    display: none;
+  }
+
+  .Banner_arrowTop {
+
+    display: none;
+  }
+
+  .Banner_arrowTopJS {
+
+    display: none;
+  }
+
+  .Banner_box-infoForm p {
+
+    font-size: 1.1rem;
+  }
+
+  /*....Style Form....*/
+
+  .Banner_form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Banner_form input {
+
+    background-color: rgb(244, 241, 241);
+
+    width: 20%;
+    height: 45px;
+
+    font-size: 1.1rem;
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: .60rem;
+    padding: .70rem;
+
+    box-sizing: border-box;
+  }
+
+
+  .Banner_form input::placeholder {
+
+    color: rgb(126, 121, 121);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  .Banner_form textarea {
+
+    background-color: rgb(244, 241, 241);
+
+    width: 40%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: .75rem;
+
+    outline: none;
+    border: none;
+
+    box-sizing: border-box;
+  }
+
+  .Banner_form textarea::placeholder {
+
+
+
+    color: rgb(126, 121, 121);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  /*-----------------       <- */  
+
+  .Banner_form-row {
+
+    width: 40%;
+
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 0 5px 0 5px;
+  }
+
+  .Banner_form-row input {
+
+    width: 50%;
+    height: 45px;
+
+    margin: 0 5px 0 10px;
+  }
+
+  /*-----------------*/
+
+  .Banner_form-boxSubmit {
+
+    width: 100%;
+
+    margin-top: .6rem;
+  }
+
+  .Banner_form-boxSubmit input {
+
+    background-color: orangered;
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  
+  .Banner_content {
+
+    height: 400px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_content-box {}
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: 400px;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+    scale: 1;
+    transition: all ease-in-out 2s;
+    object-fit: cover;
+
+    filter: brightness(0.4);
+  }
+
+  .activeBanner {
+
+    opacity: 1;
+    scale: 1.4;
+    transition: all ease-in-out 4s;
+    filter: brightness(0.6);
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+  .Banner_content {
+
+    height: calc(100vh - 250px);
+    max-height: 650px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: calc(100vh - 250px);
+    max-height: 650px;
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+    scale: 1;
+    transition: all ease-in-out 2s;
+    object-fit: cover;
+
+    filter: brightness(0.4);
+  }
+
+  .activeBanner {
+
+    opacity: 1;
+    scale: 1.4;
+    transition: all ease-in-out 4s;
+    filter: brightness(0.6);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  .Banner_content {
+
+    height: calc(100vh - 250px);
+    max-height: 650px;
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_content-image {
+
+    width: 100%;
+    height: calc(100vh - 250px);
+    max-height: 650px;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+    scale: 1;
+    transition: all ease-in-out 2s;
+    object-fit: cover;
+
+    filter: brightness(0.4);
+  }
+
+  .activeBanner {
+
+    opacity: 1;
+    scale: 1.4;
+    transition: all ease-in-out 4s;
+    filter: brightness(0.6);
+  }
+
+  /*---style box center banner---*/
+
+  .Banner_content-boxes-info {
+
+    width: 100%;
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+
+  .Banner_info-none {
+
+    position: absolute;
+    top: -290px;
+    transition: all ease-in-out 1.2s;
+    opacity: 0;
+    text-align: center;
+  }
+
+  .activeInfo {
+
+    transition: all ease-in-out 2s;
+    opacity: 1;
+    top: 0px;
+  }
+
+  .Banner_info-none h1 {
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 3.3rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .Banner_info-offers-des {
+
+    color: rgb(255, 247, 247);
+
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+
+    text-align: center;
+
+    margin: .5rem 0 1rem 0;
+  }
+
+  .Banner_info-offers {
+
+    color: orange;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin: 0;
+  }
+
+  .Banner_info-none a {
+
+    background-color: rgb(199, 136, 19);
+    color: white;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    padding: 5px 50px;
+
+    border-radius: 20px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .popUpErrorMessage {
+
+    width: 350px;
+    height: 100px;
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+    overflow: hidden;
+  }
+
+
+  .Banner_content-form {
+
+    height: 80px;
+
+    visibility: visible;
+  }
+
+  .Banner_clickViews {
+   
+    display: none;
+   
+  }
+
+  .Banner_content-form {
+
+    background-color: transparent;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0px;
+
+    z-index: 2000;
+  }
+
+  .Banner_form-content {
+
+    background-color: #252834;
+
+    width: 1440px;
+
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .Banner_form-styleDesk {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Banner_form-boxSubmit {
+
+    width: 10%;
+
+    margin: 0 0 7px 10px;
+  }
+
+  .Banner_form-boxSubmit input {
+
+    background-color: orangered;
+    color: white;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+
+    
+  }
+}

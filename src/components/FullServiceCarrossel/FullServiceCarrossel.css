@@ -1,0 +1,414 @@
+@media screen and (min-width: 358px) {
+
+
+  @keyframes slide {
+
+    from {
+
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .FullServiceCarrossel {
+
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
+  }
+
+  .FullServiceCarrossel_content {}
+
+  .FullServiceCarrossel_box {
+
+    width: 100%;
+
+    padding: 1rem 0 1rem 0;
+    box-sizing: border-box;
+  }
+
+  .FullServiceCarrossel_box-description {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FullServiceCarrossel_box-description p {
+
+    color: rgb(223, 149, 10);
+
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin: 0;
+  }
+
+  .FullServiceCarrossel_box-title {
+
+    width: 250px;
+  }
+
+  .FullServiceCarrossel_box-title h1 {
+
+    color: black;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+
+    margin: .30rem 0 0 0;
+  }
+
+  /*-----------------------*/
+
+  .FullServiceCarrossel_carrossel {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .FullServiceCarrossel_boxes {
+
+    width: 100%;
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .FullServiceCarrossel_card-carrossel {
+
+    width: 400%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+
+  }
+
+  .FullServiceCarrossel_card-scrroll {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-y: hidden;
+    transition: all ease-in-out 2s;
+  }
+
+
+  .FullServiceCarrossel_box-transition {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .FullServiceCarrossel_boxesBack {
+
+    width: 180px;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+  }
+
+
+  .FullServiceCarrossel_light-bulb {
+
+    background-image: url("../../../public/Background/Lampada.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2000;
+
+    position: absolute;
+    top: 0;
+  }
+
+  .FullServiceCarrossel_background00 {
+
+    background-image: url("../../../public/Background/All.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 250px;
+
+    position: absolute;
+    top: 35px;
+  }
+
+  .FullServiceCarrossel_background01 {
+
+    background-image: url("../../../public/Background/construcao-civil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 250px;
+
+    position: absolute;
+    top: 35px;
+  }
+
+  .FullServiceCarrossel_background02 {
+
+    background-image: url("../../../public/Background/WhoWeAre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 250px;
+
+    position: absolute;
+    top: 35px;
+  }
+
+  .FullServiceCarrossel_background03 {
+
+    background-image: url("../../../public/Background/All.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 250px;
+
+    position: absolute;
+    top: 35px;
+  }
+
+  .FullServiceCarrossel_box-content {
+
+    background-color: #00000030;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .FullServiceCarrossel_boxShadow {
+
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FullServiceCarrossel_icon-thunder {
+
+    color: white;
+
+    font-size: 4rem;
+  }
+
+  .FullServiceCarrossel_contentDescripton {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FullServiceCarrossel_contentDescripton h1 {
+
+    color: black;
+
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    margin: .50rem 0 0 0;
+
+  }
+
+  .FullServiceCarrossel_contentDescripton-infos p {
+
+    color: rgb(71, 68, 68);
+
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+
+    margin: .40rem 0 0 0;
+  }
+
+  .FullServiceCarrossel_box-Link {
+
+    margin-top: 1rem;
+  }
+
+  .FullServiceCarrossel_box-Link a {
+
+    color: rgb(71, 68, 68);
+
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+
+    margin: .40rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .FullServiceCarrossel_carrossel {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .FullServiceCarrossel_boxes {
+
+    width: 100%;
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .FullServiceCarrossel_card-carrossel {
+
+    width: 200%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    overflow-x: hidden;
+  }
+
+  .FullServiceCarrossel_card-carrossel::-webkit-scrollbar {
+
+    display: none;
+  }
+
+  .FullServiceCarrossel_card-scrroll {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    transition: all ease-in-out 2s;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .FullServiceCarrossel_box-description {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FullServiceCarrossel_box-description p {
+
+    color: rgb(223, 149, 10);
+
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+
+    margin: 0;
+  }
+
+  .FullServiceCarrossel_box-title {
+
+    width: 400px;
+  }
+
+  .FullServiceCarrossel_box-title h1 {
+
+    color: black;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+
+    margin: .30rem 0 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .Carrossel-boxContent-all {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .FullServiceCarrossel_carrossel {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .FullServiceCarrossel_boxes {
+
+    width: 100%;
+    overflow: hidden;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .FullServiceCarrossel_card-carrossel {
+
+    width: 200%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-x: scroll;
+
+  }
+
+  .FullServiceCarrossel_card-scrroll {
+
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-y: hidden;
+    transition: all ease-in-out 2s;
+  }
+}

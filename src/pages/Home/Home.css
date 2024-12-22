@@ -1,0 +1,30 @@
+@media screen and (min-width: 1440px) {
+  
+
+  .Home_ServicesInfo-NewSletter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content_ServicesInfo-NewSletter {
+
+    width: 100%;
+    max-width: 2000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ServicesInfo {
+
+    width: 60%;
+  }
+
+  .CarouselServices {
+
+    width: 40%;
+  }
+}

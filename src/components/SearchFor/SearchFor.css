@@ -1,0 +1,46 @@
+@media screen and (min-width: 358px) {
+ 
+  .SearchFor {
+
+    
+  }
+
+  .SearchFor_box {
+
+    width: 100%;
+
+    padding-top: .9rem;
+  }
+
+  .SearchFor_content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .SearchFor_content input {
+
+    background-image: url("../../../public/Background/search.png");
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: 98% 50%;
+
+    width: 80%;
+    height: 40px;
+
+    font-size: 1.1rem;
+
+    border: none;
+    padding: .5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .SearchFor_content input::placeholder {
+
+    font-size: 1rem;
+    font-family: sans-serif;
+  } 
+}

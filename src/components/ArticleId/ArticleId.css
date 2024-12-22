@@ -1,0 +1,365 @@
+@media screen and (min-width: 358px) {
+
+  .ArticleId_content {
+
+    padding: 1rem;
+  }
+
+  .ArticleId_card {
+
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ArticleId_card-info img {
+
+    width: 100%;
+    max-height: 360px;
+    border-radius: 10px;
+  }
+
+  .ArticleId_card-box-date {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 10px;
+    border-top: 2px solid orange;
+    margin-top: .5rem;
+  }
+
+  .ArticleId_card-box-date p {
+
+    color: rgb(176, 119, 13);
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: .3rem 0 0 0;
+  }
+
+  .ArticleId_card-box-date h1 {
+
+    color: black;
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    margin: .3rem 0 0 0;
+  }
+
+  .ArticleId_card-description {}
+
+  .ArticleId_card-description h1 {
+
+    color: black;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 2rem 0 0 0;
+  }
+
+  .ArticleId_card-description p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  .ArticleId_card-images {
+
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ArticleId_card-boXimages img {
+
+    width: 100%;
+    height: 250px;
+
+    border-radius: 10px;
+    margin-bottom: .5rem;
+  }
+
+  .ArticleId_card-dubleImage-description {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin: 1rem 0 0 0;
+  }
+
+  .ArticleId_card-block {}
+
+  .ArticleId_card-block-title h1 {
+
+    color: black;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 2rem 0 0 0;
+  }
+
+  .ArticleId_card-block-title p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .ArticleId_card-block-image {
+
+    width: 100%;
+    height: 300px;
+
+    border-radius: 20px;
+  }
+
+  .ArticleId_card-block-box_list {
+
+    width: 100%;
+  }
+
+  .ArticleId_card-block-list {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ArticleId_card-block-list li {
+    display: flex;
+    align-items: center;
+
+    padding-top: 1rem;
+  }
+
+  .ArticleId_card-block-list p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: sans-serif;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .ArticleId_card-block-list li::before {
+
+    content: "🌟";
+    width: 35px;
+    height: 35px;
+
+    margin-right: 5px;
+  }
+
+  /*----ArticleId_card-InfoServices----*/
+
+  .ArticleId_card-InfoServices {
+
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 2rem;
+    border-radius: 10px;
+  }
+
+  .ArticleId_card-InfoServices-image {
+
+    background-image: url("../../../public/ArticleImages/blog-quote-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ArticleId_card-InfoServices-shadow {
+
+    background-color: #00000099;
+
+    padding: .5rem;
+
+    box-sizing: border-box;
+  }
+
+  .ArticleId_card-InfoServices-card {}
+
+  .ArticleId_card-InfoServices-box-TXT {
+
+    width: 90%;
+  }
+
+  .ArticleId_card-InfoServices-box-TXT p {
+
+    color: white;
+
+    font-size: 1.5rem;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    line-height: 26px;
+
+    margin: 0;
+  }
+
+  .ArticleId_card-InfoServices-box-Name {
+
+    width: 100%;
+  }
+
+  .ArticleId_card-InfoServices-box-Name p {
+
+    color: white;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    text-align: end;
+
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+
+  .ArticleId_card-InfoServices-shadow {
+    padding: 1rem;
+  }
+
+  .ArticleId_card-block-list li {
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 0rem;
+  }
+
+  .ArticleId_card-block-list p {
+
+    font-size: 1.2rem;
+    margin: .80rem 0 .50rem 0;
+  }
+
+  .ArticleId_card-block-list li::before {
+
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+
+  .ArticleId_card-block-list li {
+
+    padding-top: .6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .ArticleId_card-boXimages {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .ArticleId_card-boXimages img {
+
+    width: 360px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .ArticleId_content {
+
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+  }
+
+  .ArticleId_card {
+
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+
+  .ArticleId_card-block-Desk {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .ArticleId_card-block-image {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+
+    margin-right: 10px;
+  }
+
+  .ArticleId_card-boXimages {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ArticleId_card-boXimages img {
+
+    width: 340px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .ArticleId_card-boXimages {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ArticleId_card-boXimages img {
+
+    width: 390px;
+    height: 250px;
+  }
+} 

@@ -1,0 +1,789 @@
+@media screen and (min-width: 358px) {
+  
+  .CardIntro {
+
+    background-color: white;
+  }
+
+  .CardIntro_content {
+
+    width: 100%;
+    height: auto;
+  }
+
+  .CardIntro_box {
+
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardIntro_box-images {
+
+    width: 90%;
+    height: 260px;
+
+    position: relative;
+  }
+
+  .CardIntro_box-image01 {
+
+    background-image: url("../../../public/CardsImages/layout01-img01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 80%;
+    height: 210px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .CardIntro_box-image02 {
+
+    background-image: url("../../../public/CardsImages/layout01-img02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 60%;
+    height: 140px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border: 2px solid white;
+    border-radius: 0 5px 0 0;
+  }
+
+  /*-------------------------*/
+
+  .CardIntro_content-about {
+
+    width: 100%;
+
+    padding: 0rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+  }
+
+  .CardIntro_about {
+
+    width: 61%;
+    border-bottom: 1px solid orange;
+  }
+
+  .CardIntro_about p{
+
+    color: orangered;
+
+    font-size: 1rem;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-bottom: .25rem;
+    margin: 0;
+  }
+
+  .CardIntro_title h1{
+
+    color: black;
+
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    
+    font-weight: 600;
+    padding-bottom: .25rem;
+
+    padding-top: .60rem;
+    margin: 0;
+  }
+
+  .CardIntro_title strong{
+
+    color: orangered;
+
+    font-size: 1.7rem;
+    font-family: "Chakra Petch", sans-serif;
+    
+    font-weight: bolder;
+    padding-bottom: .25rem;
+
+    padding-top: .60rem;
+    margin: 0;
+  }
+
+  .CardIntro_txt p{
+
+    color: rgb(108, 105, 104);
+
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: sans-serif;
+    
+    
+    padding: .30rem 0 .30rem 0;
+    margin: 0;
+  }
+
+  .CardIntro_list-content {
+
+    padding: 1rem 1rem 0rem 0rem;
+  }
+
+  .CardIntro_list {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  } 
+
+  .CardIntro_list li{
+
+    color: rgb(62, 60, 60);
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-family: 200;
+    padding-bottom: .50rem;
+  } 
+
+  .CardIntro_list li::before{
+
+    content: "✓";
+
+    color: red;
+
+    font-size: 1.1rem;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  } 
+
+  /*-----------------------*/
+
+  .CardIntro_about-professional {
+
+    padding-top: 2rem;
+  }
+
+  .CardIntro_about-box {
+
+    width: 230px;
+
+    display: flex;
+    align-items: center;
+
+    border-right: 2px solid rgb(223, 218, 218);
+  }
+
+
+  .CardIntro_photo-professional {
+
+    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .CardIntro_about-name-professional h1{
+
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    margin: 0 0 0 10px;
+  }
+
+  .CardIntro_about-name-professional p{
+
+    font-size: 1rem;
+    font-family: "Abel", sans-serif;
+    margin: 0 0 0 10px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .CardIntro_content {
+
+    width: 100%;
+    height: auto;
+  }
+
+  .CardIntro_box {
+
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardIntro_box-images {
+
+    width: 90%;
+    height: 380px;
+
+    position: relative;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 85%;
+    height: 310px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 70%;
+    height: 230px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border: 2px solid white;
+    border-radius: 0 5px 0 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .CardIntro_box {
+
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .CardIntro_box-images {
+
+    width: 80%;
+    height: 380px;
+
+    position: relative;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 70%;
+    height: 350px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 50%;
+    height: 240px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .CardIntro_content-about {
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 0rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .CardIntro {
+
+    background-color: white;
+
+    width: 100%;
+    height: 650px;
+
+    padding: 4rem 0 0 0;
+    box-sizing: border-box;
+  }
+
+  .CardIntro_content {
+
+    width: 100%;
+   
+    position: relative;
+  }
+
+  .CardIntro_box {
+
+    width: 80%;
+    height: 500px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    position: absolute;
+    top: -70px;
+    left: 0;
+
+    z-index: 1;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 95%;
+    height: 400px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .CardIntro_content-about {
+
+    background-color: white;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    z-index: 2;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 50%;
+    height: 200px;
+
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .CardIntro {
+
+    background-color: white;
+
+    width: 100%;
+    height: 650px;
+
+    padding: 4rem 0 0 0;
+    box-sizing: border-box;
+  }
+
+  .CardIntro_content {
+
+    width: 100%;
+   
+    position: relative;
+  }
+
+  .CardIntro_box {
+
+    width: 80%;
+    height: 500px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    position: absolute;
+    top: -70px;
+    left: 0;
+
+    z-index: 1;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 95%;
+    height: 450px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .CardIntro_content-about {
+
+    background-color: white;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    z-index: 2;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 50%;
+    height: 200px;
+
+    position: absolute;
+    bottom: -190px;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  @keyframes apper {
+   
+    from {
+      opacity: 0;
+    }
+
+    to{
+
+      opacity: 1;
+    }
+  }
+
+  @keyframes reveal {
+   
+    from {
+      opacity: 0;
+      clip-path: inset(45% 20% 45% 20%);
+    }
+
+    to{
+
+      opacity: 1;
+      clip-path: inset(0% 0% 0% 0%)
+    }
+  }
+
+
+
+  .CardIntro_box {
+
+    animation: apper 2s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+  }
+
+
+  .CardIntro_box-image01 {
+
+    width: 85%;
+    height: 450px;
+
+    animation: reveal 2s ease-in-out;
+
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+
+  .CardIntro_content-about {
+
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .CardIntro {
+
+    background-color: white;
+
+    width: 100%;
+    height: 650px;
+
+    padding: 4rem 0 0 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .CardIntro_content {
+
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 85%;
+    max-width: 600px;
+    height: 450px;
+
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 400px;
+  }
+
+  .CardIntro_content-about {
+
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+  .CardIntro {
+
+    background-color: white;
+
+    width: 100%;
+    height: 750px;
+
+    padding: 4rem 0 0 0;
+    box-sizing: border-box;
+  }
+
+  .CardIntro_about {
+
+    width: 61%;
+    border-bottom: 3px solid orange;
+  }
+
+  .CardIntro_about p{
+
+    color: orangered;
+
+    font-size: 1.2rem;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-bottom: .25rem;
+    margin: 0;
+  }
+
+  .CardIntro_title h1{
+
+    color: black;
+
+    font-size: 3rem;
+    font-family: "Abel", sans-serif;
+    
+    font-weight: 600;
+    padding-bottom: .25rem;
+
+    padding-top: .60rem;
+    margin: 0;
+  }
+
+  .CardIntro_title strong{
+
+    color: orangered;
+
+    font-size: 3rem;
+    font-family: "Chakra Petch", sans-serif;
+    
+    font-weight: bolder;
+    padding-bottom: .25rem;
+
+    padding-top: .60rem;
+    margin: 0;
+  }
+
+  .CardIntro_txt p{
+
+    color: rgb(108, 105, 104);
+
+    font-size: 1.2rem;
+    line-height: 24px;
+    font-family: sans-serif;
+    
+    
+    padding: .30rem 0 .30rem 0;
+    margin: 0;
+  }
+
+  .CardIntro_list li{
+
+    color: rgb(62, 60, 60);
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-family: 200;
+    padding-bottom: .50rem;
+  } 
+
+  .CardIntro_list li::before{
+
+    content: "✓";
+
+    color: red;
+
+    font-size: 1.1rem;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  } 
+
+  /*-----------------------*/
+
+
+  .CardIntro_about-box {
+
+    width: 330px;
+
+    display: flex;
+    align-items: center;
+
+    border-right: 3px solid orange;
+  }
+ 
+  .CardIntro_photo-professional {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .CardIntro_about-name-professional h1{
+
+    font-size: 1.3rem;
+    font-family: "Abel", sans-serif;
+    margin: 0 0 0 10px;
+  }
+
+  .CardIntro_about-name-professional p{
+
+    font-size: 1.1rem;
+    font-family: "Abel", sans-serif;
+    margin: 0 0 0 10px;
+  }
+  
+}
+
+@media screen and (min-width: 1800px) {
+
+  .CardIntro {
+
+    background-color: white;
+
+    width: 100%;
+    height: 850px;
+
+    padding: 7rem 0 0 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .CardIntro_content {
+
+    width: 90%;
+    max-width: 1500px;
+    position: relative;
+  }
+
+  .CardIntro_box-image01 {
+
+    width: 80%;
+    max-width: 600px;
+    height: 450px;
+
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+
+  .CardIntro_box-image02 {
+    
+    width: 400px;
+    left: 100px;
+  }
+
+  .CardIntro_content-about {
+
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 1rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    z-index: 2;
+  }
+}

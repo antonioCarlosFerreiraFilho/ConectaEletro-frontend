@@ -1,0 +1,35 @@
+@media screen and (min-width: 358px) {
+
+  .Gallery_SideBar {
+
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .Gallery_content {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gallery_id-SideBar {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gallery_id {
+
+    width: 70%;
+  }
+
+  .Gallery_SideBar {
+
+    display: block;
+    width: 30%;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+
+  .Contact_P {
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Contact_FormContact-AboutCarrossel {
+
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+  }
+
+  .FormContact {
+
+    width: 50%;
+  }
+
+  .AboutCarrossel {
+
+    width: 50%;
+  }
+}

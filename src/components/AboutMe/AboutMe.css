@@ -1,0 +1,405 @@
+@media screen and (min-width: 358px) {
+
+  .AboutMe {
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../../../public/Background/body-bg-flip.png");
+    background-position: start;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .AboutMe-boxes {
+
+    width: 100%;
+  }
+
+  .AboutMe-box-description {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  .AboutMe-box-description-Title {
+
+    width: 90%;
+  }
+
+  .AboutMe-box-description-Title p {
+
+    font-size: 1.1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .AboutMe-box-description-Title h1 {
+
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+    margin: 0;
+  }
+
+  .AboutMe-box-description-TXT {
+
+    width: 90%;
+  }
+
+  .AboutMe-box-description-TXT p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+
+    margin: 2rem 0 2rem 0;
+  }
+
+  /*----------------------*/
+
+  .AboutMe-box-Services {
+
+    width: 100%;
+  }
+
+  .AboutMe-box-Services-content {
+
+    padding: 1rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
+
+  .AboutMe-box-Services-image01 {
+
+    background-image: url("../../../public/About/h1-about-img-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 320px;
+    height: 500px;
+
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+  }
+
+  .AboutMe-box-Services-image02 {
+
+    background-image: url("../../../public/About/h1-about-img-02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 320px;
+    height: 300px;
+
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .AboutMe-box-Services-image03 {
+
+    background-image: url("../../../public/About/h1-about-img-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 320px;
+    height: 250px;
+
+    border-radius: 10px;
+  }
+
+  .AboutMe-box-Services-boxInfo {
+
+    background-color: rgb(57, 218, 16);
+
+    width: 150px;
+    height: 200px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 29%;
+    right: 10px;
+  }
+
+  .AboutMe-box-Services-boxInfo-content {
+
+    padding: .2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .AboutMe-box-Services-boxInfo-description-infos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AboutMe-box-Services-boxInfo-description h1 {
+
+    color: black;
+
+    font-size: 2.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .AboutMe-box-Services-boxInfo-description-infos-plus {
+
+    color: black;
+
+    font-size: 2.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+  .AboutMe-box-Services-boxInfo-description-infosDes p{
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+  .AboutMe-box-Services-boxInfo-description-Line {
+
+    background-color: black;
+
+    width: 100%;
+    height: 1px;
+
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+
+  .AboutMe-box-description-Title {
+
+    width: 500px;
+  }
+
+  .AboutMe-box-description-TXT {
+
+    width: 450px;
+  }
+
+  /*---------------*/
+
+  .AboutMe-box-Services {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe-box-Services-content {
+
+    width: 95%;
+    max-width: 760px;
+    height: 600px;
+
+    padding: 1rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+  }
+
+  .AboutMe-box-Services-image01 {
+
+    width: 50%;
+    height: 500px;
+
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+
+    position: absolute;
+    left: 0;
+  }
+
+  .AboutMe-box-Services-image02 {
+
+    width: 45%;
+    height: 300px;
+
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+
+  .AboutMe-box-Services-image03 {
+
+    width: 45%;
+    height: 250px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+  }
+
+  .AboutMe-box-Services-boxInfo {
+
+    width: 150px;
+    height: 200px;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 40%;
+    right: 33%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .AboutMe-box-Services-style {
+
+    width: 100%;
+
+    margin-top: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .AboutMe-box-Services {
+
+    width: 45%;
+
+    display: flex;
+    justify-content: end;
+  }
+
+  .AboutMe-box-descriptionServices {
+
+    width: 45%;
+
+    display: flex;
+    justify-content: start;
+  }
+
+  .AboutMe-box-description-styleDesk {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe-box-description {
+
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  .AboutMe-box-description-TXT {
+
+    width: 50%;
+    max-width: 430px;
+    height: 100px;
+
+    margin: 0 0 6rem 0;
+
+    border-left: 3px solid orange;
+  }
+
+  .AboutMe-box-description-TXT p {
+
+    color: black;
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: start;
+
+    margin: .8rem 0 0rem 1rem;
+  }
+
+
+  /*--------------------------*/
+
+  .AboutMe-box-description-Title {
+
+    width: 450px;
+    margin-left: 30px;
+  }
+
+  .AboutMe-box-description-Title p {
+
+    font-size: 1.1rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: start;
+
+    margin: 0;
+  }
+
+  .AboutMe-box-description-Title h1 {
+
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+
+    margin: 0;
+  }
+}

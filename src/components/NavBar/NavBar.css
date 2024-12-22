@@ -1,0 +1,198 @@
+@media screen and (min-width: 358px) {
+
+  .NavBar {
+
+    transition: all ease-in-out 2s;
+  }
+
+  .NavBar-content {
+
+    background-color: white;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 2s;
+    padding: .50rem 1rem .50rem 1rem;
+  }
+
+  .NavBar-styleDesk {
+
+    display: none;
+  }
+
+  .NavBar-link {
+
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+  }
+
+    /*------------------*/
+
+  .NavBar-content__logo {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar_box-logo {
+
+    width: 65%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+  }
+
+  .NavBar_box-logo h1 {
+
+    color: rgb(17, 17, 17);
+
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+
+    margin: 0;
+  }
+
+  .NavBar_box-logo strong {
+
+    color: rgb(218, 143, 4);
+
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .NavBar_box-icon {
+
+    color: orange;
+
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 2px;
+    left: -44px;
+
+    z-index: 1000;
+  }
+
+  /*------------------*/
+
+  .NavBar-hamburger {
+
+    display: flex;
+    align-items: center;
+  }
+
+  .NavBar-hamburger_icon {
+
+    font-size: 2rem;
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .NavBar_box-logo {
+
+    cursor: pointer;
+  }
+
+  .NavBar-content {
+
+    background-color: white;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: .7rem 1rem .7rem 1rem;
+    transition: all ease-in-out 2s;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .NavBar_content-boxes {
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .NavBar-content {
+
+    max-width: 1200px;
+  }
+
+  .NavBar-hamburger {
+
+    display: none;
+  }
+
+  .NavBar-styleDesk {
+
+    display: block;
+  }
+
+  .NavBar-styleDesk-content {
+
+    width: 500px;
+  }
+
+  .NavBar-styleDesk-list {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .NavBar-styleDesk-list li {
+
+    width: 15%;
+  }
+
+  .NavBar-styleDesk-list a {
+
+    color: #252834;
+
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    transition: all ease-in-out 600ms;
+  }
+
+  .NavBar-styleDesk-list a:hover {
+
+    color: orange;
+    letter-spacing: 2px;
+    transition: all ease-in-out 600ms;
+  }
+
+  .NavBar-styleDesk-list .active {
+
+    color: rgb(179, 124, 23);
+
+    letter-spacing: 2px;
+  }
+} 
