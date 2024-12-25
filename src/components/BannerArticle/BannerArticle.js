@@ -13,8 +13,8 @@ const BannerArticle = () => {
             <div className="BannerArticle_card-list">
               <div className="BannerArticle_card-item">
                 <div>
-                  <NavLink>Sobre /</NavLink>
-                  <NavLink>Eletricidade /</NavLink>
+                  <NavLink to={"/about"}>Sobre /</NavLink>
+                  <NavLink>Circuito de Tomadas /</NavLink>
                 </div>
                 <div>
                   <NavLink>Manutenção eletrica /</NavLink>

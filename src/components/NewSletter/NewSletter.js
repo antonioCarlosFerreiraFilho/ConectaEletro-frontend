@@ -62,7 +62,7 @@ const NewSletter = () => {
               {loading && (
                 <input
                   type="submit"
-                  value="AGUARDE...."
+                  value="...."
                   disabled
                   className="NewSletter_input-submit"
                 />

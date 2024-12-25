@@ -18,12 +18,12 @@ const BannerContact = () => {
               <div className="BannerArticle_card-list">
                 <div className="BannerArticle_card-item">
                   <div>
-                    <NavLink>Sobre /</NavLink>
-                    <NavLink>Projetos /</NavLink>
+                    <NavLink to={"/about"}>Sobre /</NavLink>
+                    <NavLink  to={"/gallery"}>Projetos /</NavLink>
                   </div>
                   <div>
-                    <NavLink>Contato /</NavLink>
-                    <NavLink>Serviço Eletrico Residencial</NavLink>
+                    <NavLink to={"/contact"}>Contato /</NavLink>
+                    <NavLink to={"/about"}>Serviço Eletrico Residencial</NavLink>
                   </div>
                 </div>
               </div>

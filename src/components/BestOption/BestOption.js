@@ -20,7 +20,7 @@ const BestOption = () => {
             </p>
           </div>
           <div className="BestOption_link">
-            <NavLink>Conheça Meu trabalho</NavLink>
+            <NavLink to={"/about"}>Conheça Meu trabalho</NavLink>
           </div>
         </div>
       </div>

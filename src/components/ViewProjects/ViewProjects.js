@@ -3,7 +3,8 @@ import "./ViewProjects.css";
 //react icons
 import { IoIosArrowForward } from "react-icons/io";
 import { IoMdCloseCircle } from "react-icons/io";
-
+//hooks
+import { useScroll } from "../../hooks/useScroll";
 //react
 import { NavLink } from "react-router-dom";
 import { useEffect } from "react";
@@ -23,66 +24,54 @@ const ViewProjects = () => {
         if (elements.classList.contains("image01")) {
           PopUp.classList.add("image01");
         } else {
-
           PopUp.classList.remove("image01");
-        } 
-        
+        }
+
         if (elements.classList.contains("image02")) {
           PopUp.classList.add("image02");
-        }else {
-
+        } else {
           PopUp.classList.remove("image02");
         }
-        
-        
+
         if (elements.classList.contains("image03")) {
           PopUp.classList.add("image03");
         } else {
-
           PopUp.classList.remove("image03");
         }
-        
-        
+
         if (elements.classList.contains("image04")) {
           PopUp.classList.add("image04");
-        }else  {
-
+        } else {
           PopUp.classList.remove("image04");
         }
-        
+
         if (elements.classList.contains("image05")) {
           PopUp.classList.add("image05");
         } else {
-
           PopUp.classList.remove("image05");
         }
-        
+
         if (elements.classList.contains("image06")) {
           PopUp.classList.add("image06");
-        }else {
-
+        } else {
           PopUp.classList.remove("image06");
         }
-        
+
         if (elements.classList.contains("image07")) {
           PopUp.classList.add("image07");
         } else {
-
           PopUp.classList.remove("image07");
         }
-        
-        
+
         if (elements.classList.contains("image08")) {
           PopUp.classList.add("image08");
-        }else {
-
+        } else {
           PopUp.classList.remove("image08");
         }
-        
+
         if (elements.classList.contains("image09")) {
           PopUp.classList.add("image09");
         } else {
-
           PopUp.classList.remove("image09");
         }
       });
@@ -93,6 +82,10 @@ const ViewProjects = () => {
         PopUp.classList.remove("ViewProjects_projects-imagesJS");
       }
     });
+  }
+
+  function ScrollTop() {
+    useScroll(0, 0, 0);
   }
 
   useEffect(() => {
@@ -130,8 +123,8 @@ const ViewProjects = () => {
             <div className="ViewProjects_projects-photos image03"></div>
           </div>
 
-          <div className="ViewProjects_view-more">
-            <NavLink>galeria de projetos executados</NavLink>
+          <div className="ViewProjects_view-more" onClick={ScrollTop}>
+            <NavLink to={"/gallery"}>galeria de projetos executados</NavLink>
             <IoIosArrowForward className="ViewProjects_icon-arrow" />
           </div>
         </div>

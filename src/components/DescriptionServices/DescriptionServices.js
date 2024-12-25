@@ -67,14 +67,14 @@ const DescriptionServices = () => {
           <div className="DescriptionServices_Call">
             <div className="DescriptionServices_Call-box">
               <div className="DescriptionServices_Call-Link">
-                <NavLink>Contacte-me</NavLink>
+                <NavLink to={"/contact"}>Contacte-me</NavLink>
               </div>
               <div className="DescriptionServices_Call-PhoneLink">
                 <div className="DescriptionServices_Call-Phone">
                   <img src="/ImagesCarrossel/call-center_270728.png" alt="" />
                 </div>
                 <div className="DescriptionServices_Call-linkClick">
-                  <a href="">+(351) 934 897 540</a>
+                  <a href="tel:+351934897540">+(351) 934 897 540</a>
                   <p>Clique é Entre em contato agora mesmo!</p>
                 </div>
               </div>

@@ -5,6 +5,8 @@ import "./FullServiceCarrossel.css";
 import { FaHome } from "react-icons/fa";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { useEffect } from "react";
+//hooks
+import { useScroll } from "../../hooks/useScroll";
 
 const FullServiceCarrossel = () => {
   function ScrollCarrossel() {
@@ -28,6 +30,10 @@ const FullServiceCarrossel = () => {
     setInterval(() => {
       nextBox();
     }, 4000);
+  }
+
+  function ScroolLink() {
+    useScroll(0, 0, 0);
   }
 
   useEffect(() => {
@@ -77,8 +83,11 @@ const FullServiceCarrossel = () => {
                           <p>Substituição de quadros</p>
                           <p>adequação às demandas de energia.</p>
                         </div>
-                        <div className="FullServiceCarrossel_box-Link">
-                          <NavLink>Saber mais...</NavLink>
+                        <div
+                          className="FullServiceCarrossel_box-Link"
+                          onClick={ScroolLink}
+                        >
+                          <NavLink to={"/gallery"}>Saber mais...</NavLink>
                         </div>
                       </div>
                     </div>
@@ -104,8 +113,11 @@ const FullServiceCarrossel = () => {
                           <p>Manutenção ou substituição</p>
                           <p>Montagem de luminárias, spots e Candeeiros</p>
                         </div>
-                        <div className="FullServiceCarrossel_box-Link">
-                          <NavLink>Saber mais...</NavLink>
+                        <div
+                          className="FullServiceCarrossel_box-Link"
+                          onClick={ScroolLink}
+                        >
+                          <NavLink to={"/gallery"}>Saber mais...</NavLink>
                         </div>
                       </div>
                     </div>
@@ -131,8 +143,11 @@ const FullServiceCarrossel = () => {
                           <p>sistemas de aterramento para residencias</p>
                           <p>Disjuntores Diferenciais</p>
                         </div>
-                        <div className="FullServiceCarrossel_box-Link">
-                          <NavLink>Saber mais...</NavLink>
+                        <div
+                          className="FullServiceCarrossel_box-Link"
+                          onClick={ScroolLink}
+                        >
+                          <NavLink to={"/gallery"}>Saber mais...</NavLink>
                         </div>
                       </div>
                     </div>
@@ -155,11 +170,16 @@ const FullServiceCarrossel = () => {
                           <h1>Sistema Elétrico Completo</h1>
                         </div>
                         <div className="FullServiceCarrossel_contentDescripton-infos">
-                          <p>Montagem completa de redes elétricas residências</p>
+                          <p>
+                            Montagem completa de redes elétricas residências
+                          </p>
                           <p>Com aterramento</p>
                         </div>
-                        <div className="FullServiceCarrossel_box-Link">
-                        <NavLink>Saber mais...</NavLink>
+                        <div
+                          className="FullServiceCarrossel_box-Link"
+                          onClick={ScroolLink}
+                        >
+                          <NavLink to={"/gallery"}>Saber mais...</NavLink>
                         </div>
                       </div>
                     </div>

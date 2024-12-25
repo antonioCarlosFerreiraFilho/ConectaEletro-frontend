@@ -194,7 +194,7 @@ const LoginRegister = () => {
                   <div className="LoginRegister_card-Box-redirectArrow">
                     <FaArrowLeftLong className="LoginRegister_card-Arrow" />
 
-                    <NavLink>Voltar ao Inicio.</NavLink>
+                    <NavLink to={"/"}>Voltar ao Inicio.</NavLink>
                   </div>
                 </div>
                 {error && (
@@ -257,7 +257,7 @@ const LoginRegister = () => {
                   <div className="LoginRegister_card-Box-redirectArrow">
                     <FaArrowLeftLong className="LoginRegister_card-Arrow" />
 
-                    <NavLink>Voltar ao Inicio.</NavLink>
+                    <NavLink to={"/"}>Voltar ao Inicio.</NavLink>
                   </div>
                 </div>
                 {error && (

@@ -75,7 +75,8 @@ const CardGallery = () => {
               </div>
             </div>
 
-            <div className="CardGallery_Pagination">
+            {/*
+                <div className="CardGallery_Pagination">
               <div className="CardGallery_Pagination-content">
                 <NavLink>
                   <div className="CardGallery_Pagination-content-box CardGallery_Pagination-content-box-current">
@@ -92,6 +93,7 @@ const CardGallery = () => {
                 </div>
               </div>
             </div>
+                */}
           </div>
         </>
       )}

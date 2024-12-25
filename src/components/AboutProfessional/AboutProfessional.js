@@ -25,10 +25,10 @@ const AboutProfessional = () => {
             </div>
             <div className="AboutProfessional_contact">
               <div className="AboutProfessional_contact-Link">
-                <NavLink>Pedir orçamento</NavLink>
+                <NavLink to={"/contact"}>Pedir orçamento</NavLink>
               </div>
               <div className="AboutProfessional_contact-call">
-                <a href="">
+                <a href="tel:+351934897540">
                   <IoIosCall className="AboutProfessional_contact-icon-call" />
                   Ligue
                 </a>

@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 //react icons
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect } from "react";
+//hooks
+import { useScroll } from "../../hooks/useScroll";
 
 const CarouselServices = () => {
   function ScrollServices() {
@@ -26,6 +28,10 @@ const CarouselServices = () => {
     setInterval(() => {
       nextBox();
     }, 6000);
+  }
+
+  function ScrollTop() {
+    useScroll(0, 0, 0);
   }
 
   useEffect(() => {
@@ -57,8 +63,10 @@ const CarouselServices = () => {
                         entre 1.000 W a 7.000 W ou mais, dependendo do modelo...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
-                      <NavLink>Saiba Mais</NavLink>
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
+                      <NavLink to={"/article/675edfcf2a72abacdb0c5ce1"}>
+                        Saiba Mais
+                      </NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
                   </div>
@@ -81,8 +89,10 @@ const CarouselServices = () => {
                         resistentes...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
-                      <NavLink>Saiba Mais</NavLink>
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
+                      <NavLink to={"/article/67579b86f91ca95aec5b1270"}>
+                        Saiba Mais
+                      </NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
                   </div>
@@ -105,8 +115,10 @@ const CarouselServices = () => {
                         diversos andares e...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
-                      <NavLink>Saiba Mais</NavLink>
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
+                      <NavLink to={"/article/6757980bf91ca95aec5b126a"}>
+                        Saiba Mais
+                      </NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
                   </div>
@@ -128,8 +140,10 @@ const CarouselServices = () => {
                         disjuntores que serão necessários. Isso inclui o tipo...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
-                      <NavLink>Saiba Mais</NavLink>
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
+                      <NavLink to={"/article/67579f4bf91ca95aec5b1286"}>
+                        Saiba Mais
+                      </NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
                   </div>
@@ -152,7 +166,7 @@ const CarouselServices = () => {
                         trifásica, aterrar e testar a instalação e...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
                       <NavLink>Saiba Mais</NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
@@ -176,7 +190,7 @@ const CarouselServices = () => {
                         meses, e de 2 em 2 anos deve substituir a...
                       </p>
                     </div>
-                    <div className="CarouselServices_link-projects">
+                    <div className="CarouselServices_link-projects" onClick={ScrollTop}>
                       <NavLink>Saiba Mais</NavLink>
                       <IoIosArrowForward className="CarouselServices_link-icon" />
                     </div>
