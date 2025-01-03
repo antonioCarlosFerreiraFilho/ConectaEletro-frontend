@@ -5,8 +5,6 @@ import { FaPlus } from "react-icons/fa";
 import { useEffect } from "react";
 
 const BannerCarrossel = () => {
-
-
   function ScrollCarrossel() {
     let counter = 0;
     const box = document.querySelector(".BannerCarrossel_boxes");
@@ -40,13 +38,12 @@ const BannerCarrossel = () => {
     <div className="BannerCarrossel">
       <div className="BannerCarrossel_cards">
         <div className="BannerCarrossel_boxes">
-
           <div className="BannerCarrossel_card">
             <div className="BannerCarrossel_box">
               <div className="BannerCarrossel_content-info">
                 <div className="BannerCarrossel_box-description">
                   <div>
-                    <h1 className="BannerCarrossel_title">Residencial</h1>
+                    <h1 className="BannerCarrossel_title">Manutenção</h1>
                   </div>
 
                   <div className="BannerCarrossel_box-button">
@@ -58,10 +55,9 @@ const BannerCarrossel = () => {
                   <div className="BannerCarrossel_box-view">
                     <div>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Nemo harum perspiciatis quo ipsa, suscipit in eius
-                        doloremque numquam quisquam esse dolores, amet voluptas
-                        libero sapiente, nesciunt placeat. Tempore, atque vitae.
+                        Identificação de falhas, reparos rápidos, manutenção em
+                        quadro eléctrico, troca de fiação, instalação de
+                        equipamentos
                       </p>
                     </div>
                   </div>
@@ -75,7 +71,7 @@ const BannerCarrossel = () => {
               <div className="BannerCarrossel_content-info">
                 <div className="BannerCarrossel_box-description">
                   <div>
-                    <h1 className="BannerCarrossel_title">Industrial</h1>
+                    <h1 className="BannerCarrossel_title">Automação</h1>
                   </div>
 
                   <div className="BannerCarrossel_box-button">
@@ -87,10 +83,8 @@ const BannerCarrossel = () => {
                   <div className="BannerCarrossel_box-view">
                     <div>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Nemo harum perspiciatis quo ipsa, suscipit in eius
-                        doloremque numquam quisquam esse dolores, amet voluptas
-                        libero sapiente, nesciunt placeat. Tempore, atque vitae.
+                        Configuração de sistemas de iluminação, controle de
+                        energia e outros dispositivos inteligentes.
                       </p>
                     </div>
                   </div>
@@ -104,7 +98,9 @@ const BannerCarrossel = () => {
               <div className="BannerCarrossel_content-info">
                 <div className="BannerCarrossel_box-description">
                   <div>
-                    <h1 className="BannerCarrossel_title">Reparos Gerais</h1>
+                    <h1 className="BannerCarrossel_title">
+                      Instalação Elétrica
+                    </h1>
                   </div>
 
                   <div className="BannerCarrossel_box-button">
@@ -116,10 +112,9 @@ const BannerCarrossel = () => {
                   <div className="BannerCarrossel_box-view">
                     <div>
                       <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Nemo harum perspiciatis quo ipsa, suscipit in eius
-                        doloremque numquam quisquam esse dolores, amet voluptas
-                        libero sapiente, nesciunt placeat. Tempore, atque vitae.
+                        Planejamento elétrico para construções ou reformas
+                        residenciais, Manutenção ou troca de equipamentos
+                        eléctricos
                       </p>
                     </div>
                   </div>
@@ -127,7 +122,6 @@ const BannerCarrossel = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
