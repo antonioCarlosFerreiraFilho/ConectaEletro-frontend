@@ -1,17 +1,13 @@
 @media screen and (min-width: 358px) {
- 
   .InfoCustomers {
-
     background-color: #252834;
   }
 
   .InfoCustomers_container {
-
     position: static;
   }
 
   .InfoCustomers_content-infos {
-
     width: 100%;
 
     display: flex;
@@ -23,15 +19,13 @@
   }
 
   .InfoCustomers_statistics {
-
     color: orangered;
 
     font-size: 1rem;
     font-family: "Kanit", sans-serif;
   }
 
-  .InfoCustomers_title-P h1{
-
+  .InfoCustomers_title-P h1 {
     color: white;
 
     font-size: 2rem;
@@ -41,8 +35,7 @@
     margin: 0;
   }
 
-  .InfoCustomers_box-numbers h1{
-
+  .InfoCustomers_box-numbers h1 {
     color: white;
 
     font-size: 2rem;
@@ -52,8 +45,7 @@
     margin: 0;
   }
 
-  .InfoCustomers_box-numbers p{
-
+  .InfoCustomers_box-numbers p {
     color: white;
 
     font-size: 2rem;
@@ -64,7 +56,6 @@
   }
 
   .InfoCustomers_numbers {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,8 +63,7 @@
     margin-top: 2rem;
   }
 
-  .InfoCustomers_numbers-descriprion p{
-
+  .InfoCustomers_numbers-descriprion p {
     color: white;
 
     text-align: center;
@@ -86,13 +76,12 @@
   /*-----------------*/
 
   .InfoCustomers_carrossel {
-
     background-color: white;
 
     width: 100%;
     max-width: 400px;
     overflow: hidden;
-    
+
     margin: 1rem 0 0rem 0;
 
     position: relative;
@@ -100,7 +89,6 @@
   }
 
   .InfoCustomers_carrossel-scrroll {
-
     width: 400%;
 
     display: flex;
@@ -110,41 +98,33 @@
   }
 
   .InfoCustomers_carrossel-scrroll::-webkit-scrollbar {
-
     display: none;
   }
 
   .InfoCustomers_carrossel-boxes {
-
     width: 100%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-     overflow-y: hidden;
+
+    overflow-y: hidden;
 
     transition: all ease-in-out 2s;
-
-   
   }
 
   .InfoCustomers_carrossel-card {
-
     width: 100%;
 
-    padding: 2rem .50rem 2rem .50rem;
+    padding: 2rem 0.5rem 2rem 0.5rem;
     box-sizing: border-box;
   }
 
   .InfoCustomers_carrossel-description {
-
     display: flex;
-    
   }
 
   .InfoCustomers_carrossel-image {
-
-    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-image: url("../../../public/ImageUser/vecteezy_man_1206101.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,18 +138,15 @@
   }
 
   .InfoCustomers_carrossel-info-user {
-
     width: 280px;
 
     display: flex;
     flex-direction: column;
-   
 
     margin: 0;
   }
 
   .InfoCustomers_carrossel-info-user p {
-
     color: orangered;
 
     font-family: "Bebas Neue", sans-serif;
@@ -179,7 +156,6 @@
   }
 
   .InfoCustomers_carrossel-info-user h1 {
-
     color: black;
 
     font-size: 1.5rem;
@@ -188,13 +164,11 @@
   }
 
   .InfoCustomers_carrossel-comments {
-
-    padding: 1.2rem .50rem .50rem .50rem;
+    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
     box-sizing: border-box;
   }
 
-  .InfoCustomers_carrossel-TXT p{
-
+  .InfoCustomers_carrossel-TXT p {
     color: black;
 
     font-size: 1rem;
@@ -204,12 +178,10 @@
   }
 
   .InfoCustomers_name-users {
-
     width: 100%;
   }
 
   .InfoCustomers_name-users p {
-
     color: black;
 
     font-size: 1rem;
@@ -221,7 +193,6 @@
   /*---------------------------*/
 
   .InfoCustomers_servicesEmergency {
-
     background-image: url("../../../public/Background/WhoWeAre.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -234,12 +205,10 @@
   }
 
   .InfoCustomers_servicesEmergency-boxes {
-
     position: relative;
   }
 
   .InfoCustomers_servicesEmergency-back {
-
     background-color: rgb(236, 92, 39);
 
     width: 300px;
@@ -253,21 +222,19 @@
   }
 
   .InfoCustomers_servicesEmergency-description {
-
-    padding: .50rem 1.4rem .50rem 1.4rem;
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
     box-sizing: border-box;
   }
 
-  .InfoCustomers_servicesEmergency-description h1{
+  .InfoCustomers_servicesEmergency-description h1 {
     color: white;
 
     font-size: 1.5rem;
     font-family: "Chakra Petch", sans-serif;
-    margin: .50rem 0 0 0;
+    margin: 0.5rem 0 0 0;
   }
 
-  .InfoCustomers_servicesEmergency-description p{
-
+  .InfoCustomers_servicesEmergency-description p {
     color: white;
 
     font-size: 1rem;
@@ -278,7 +245,6 @@
   }
 
   .InfoCustomers_servicesEmergency-icons-numbers {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,22 +253,18 @@
   }
 
   .InfoCustomers_servicesEmergency-icons {
-
     color: white;
 
     margin-right: 10px;
   }
 
   .InfoCustomers_servicesEmergency-icons-numbers p {
-
     margin: 0;
   }
 }
 
 @media screen and (min-width: 600px) {
-
   .InfoCustomers_box-Desk {
-
     width: 100%;
 
     display: flex;
@@ -311,14 +273,11 @@
 }
 
 @media screen and (min-width: 700px) {
-
   .InfoCustomers_container {
-
     position: relative;
   }
 
   .InfoCustomers_servicesEmergency {
-
     background-image: url("../../../public/Background/WhoWeAre.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -337,7 +296,6 @@
   }
 
   .InfoCustomers_servicesEmergency-back {
-
     background-color: rgb(236, 92, 39);
 
     width: 63%;
@@ -353,9 +311,7 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .InfoCustomers_content-infos {
-
     width: 100%;
 
     display: flex;
@@ -368,16 +324,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-  
   .InfoCustomers_carrossel {
-
     background-color: white;
 
     width: 100%;
     max-width: 500px;
     height: 400px;
     overflow: hidden;
-    
+
     margin: 1rem 0 0rem 0;
 
     position: relative;
@@ -385,7 +339,6 @@
   }
 
   .InfoCustomers_carrossel-image {
-
     background-image: url("../../../public/imageProfessional/professional.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -400,7 +353,6 @@
   }
 
   .InfoCustomers_carrossel-info-user {
-
     width: 300px;
 
     display: flex;
@@ -410,7 +362,6 @@
   }
 
   .InfoCustomers_carrossel-info-user p {
-
     color: orangered;
 
     font-size: 1.4rem;
@@ -421,7 +372,6 @@
   }
 
   .InfoCustomers_carrossel-info-user h1 {
-
     color: black;
 
     font-size: 1.9rem;
@@ -430,13 +380,11 @@
   }
 
   .InfoCustomers_carrossel-comments {
-
-    padding: 1.2rem .50rem .50rem .50rem;
+    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
     box-sizing: border-box;
   }
 
-  .InfoCustomers_carrossel-TXT p{
-
+  .InfoCustomers_carrossel-TXT p {
     color: black;
 
     font-size: 1.3rem;
@@ -446,12 +394,10 @@
   }
 
   .InfoCustomers_name-users {
-
     width: 100%;
   }
 
   .InfoCustomers_name-users p {
-
     color: black;
 
     font-size: 1rem;
@@ -461,7 +407,6 @@
   }
 
   .InfoCustomers_servicesEmergency {
-
     background-image: url("../../../public/Background/WhoWeAre.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -479,9 +424,7 @@
     margin-bottom: 0rem;
   }
 
-
   .InfoCustomers_servicesEmergency-back {
-
     background-color: rgb(236, 92, 39);
 
     max-width: 400px;
@@ -497,17 +440,16 @@
 
   /*-----------------------*/
 
-  .InfoCustomers_servicesEmergency-description h1{
+  .InfoCustomers_servicesEmergency-description h1 {
     color: white;
 
     font-size: 2rem;
     text-align: center;
     font-family: "Chakra Petch", sans-serif;
-    margin: .50rem 0 0 0;
+    margin: 0.5rem 0 0 0;
   }
 
-  .InfoCustomers_servicesEmergency-description p{
-
+  .InfoCustomers_servicesEmergency-description p {
     color: rgb(251, 246, 246);
 
     font-size: 1.3rem;
@@ -519,7 +461,6 @@
   }
 
   .InfoCustomers_servicesEmergency-icons-numbers {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -528,7 +469,6 @@
   }
 
   .InfoCustomers_servicesEmergency-icons {
-
     color: white;
 
     font-size: 1.5rem;
@@ -536,20 +476,16 @@
   }
 
   .InfoCustomers_servicesEmergency-icons-numbers p {
-
     margin: 0;
   }
 }
 
-@media screen and (min-width: 2000px)  {
-
+@media screen and (min-width: 2000px) {
   .InfoCustomers_content-infos {
-
     padding: 3rem 0 8rem 0;
   }
 
   .InfoCustomers_statistics {
-
     color: orangered;
 
     font-size: 2rem;
@@ -557,8 +493,7 @@
     margin: 0;
   }
 
-  .InfoCustomers_title-P h1{
-
+  .InfoCustomers_title-P h1 {
     color: white;
 
     font-size: 3rem;
@@ -568,8 +503,7 @@
     margin: 0;
   }
 
-  .InfoCustomers_box-numbers h1{
-
+  .InfoCustomers_box-numbers h1 {
     color: white;
 
     font-size: 2.6rem;
@@ -579,8 +513,7 @@
     margin: 0;
   }
 
-  .InfoCustomers_box-numbers p{
-
+  .InfoCustomers_box-numbers p {
     color: white;
 
     font-size: 2.6rem;
@@ -591,7 +524,6 @@
   }
 
   .InfoCustomers_numbers {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -599,8 +531,7 @@
     margin-top: 4rem;
   }
 
-  .InfoCustomers_numbers-descriprion p{
-
+  .InfoCustomers_numbers-descriprion p {
     color: white;
 
     text-align: center;
