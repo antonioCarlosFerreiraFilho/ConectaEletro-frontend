@@ -68,7 +68,11 @@ const NewSletter = () => {
                 />
               )}
               {!loading && (
-                <input type="submit" className="NewSletter_input-submit" />
+                <input
+                  type="submit"
+                  className="NewSletter_input-submit"
+                  value="Enviar"
+                />
               )}
             </form>
             <div className="NewSletter_box-inputs-boxMessageError">
