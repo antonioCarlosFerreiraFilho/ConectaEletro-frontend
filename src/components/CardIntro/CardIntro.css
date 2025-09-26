@@ -1,18 +1,14 @@
 @media screen and (min-width: 358px) {
-  
   .CardIntro {
-
     background-color: white;
   }
 
   .CardIntro_content {
-
     width: 100%;
     height: auto;
   }
 
   .CardIntro_box {
-
     width: 100%;
     height: 300px;
 
@@ -22,7 +18,6 @@
   }
 
   .CardIntro_box-images {
-
     width: 90%;
     height: 260px;
 
@@ -30,7 +25,6 @@
   }
 
   .CardIntro_box-image01 {
-
     background-image: url("../../../public/CardsImages/layout01-img01.jpg");
     background-position: center;
     background-size: cover;
@@ -45,12 +39,11 @@
   }
 
   .CardIntro_box-image02 {
-
     background-image: url("../../../public/CardsImages/layout01-img02.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     width: 60%;
     height: 140px;
 
@@ -65,7 +58,6 @@
   /*-------------------------*/
 
   .CardIntro_content-about {
-
     width: 100%;
 
     padding: 0rem 1rem 1rem 1rem;
@@ -73,88 +65,78 @@
   }
 
   .CardIntro_about {
-
     width: 61%;
     border-bottom: 1px solid orange;
   }
 
-  .CardIntro_about p{
-
+  .CardIntro_about p {
     color: orangered;
 
     font-size: 1rem;
     font-family: "Abel", sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
-    padding-bottom: .25rem;
+    padding-bottom: 0.25rem;
     margin: 0;
   }
 
-  .CardIntro_title h1{
-
+  .CardIntro_title h1 {
     color: black;
 
     font-size: 2rem;
     font-family: "Abel", sans-serif;
-    
-    font-weight: 600;
-    padding-bottom: .25rem;
 
-    padding-top: .60rem;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+
+    padding-top: 0.6rem;
     margin: 0;
   }
 
-  .CardIntro_title strong{
-
+  .CardIntro_title strong {
     color: orangered;
 
     font-size: 1.7rem;
     font-family: "Chakra Petch", sans-serif;
-    
-    font-weight: bolder;
-    padding-bottom: .25rem;
 
-    padding-top: .60rem;
+    font-weight: bolder;
+    padding-bottom: 0.25rem;
+
+    padding-top: 0.6rem;
     margin: 0;
   }
 
-  .CardIntro_txt p{
-
+  .CardIntro_txt p {
     color: rgb(108, 105, 104);
 
     font-size: 1rem;
     line-height: 24px;
     font-family: sans-serif;
-    
-    
-    padding: .30rem 0 .30rem 0;
+
+    padding: 0.3rem 0 0.3rem 0;
     margin: 0;
   }
 
   .CardIntro_list-content {
-
     padding: 1rem 1rem 0rem 0rem;
   }
 
   .CardIntro_list {
-
     list-style: none;
     margin: 0;
     padding: 0;
-  } 
+  }
 
-  .CardIntro_list li{
-
+  .CardIntro_list li {
     color: rgb(62, 60, 60);
 
     font-size: 1rem;
     font-family: sans-serif;
     font-family: 200;
-    padding-bottom: .50rem;
-  } 
+    padding-bottom: 0.5rem;
+  }
 
-  .CardIntro_list li::before{
-
+  .CardIntro_list li::before {
     content: "✓";
 
     color: red;
@@ -163,17 +145,15 @@
     width: 40px;
     height: 40px;
     margin-right: 5px;
-  } 
+  }
 
   /*-----------------------*/
 
   .CardIntro_about-professional {
-
     padding-top: 2rem;
   }
 
   .CardIntro_about-box {
-
     width: 230px;
 
     display: flex;
@@ -182,9 +162,7 @@
     border-right: 2px solid rgb(223, 218, 218);
   }
 
-
   .CardIntro_photo-professional {
-
     background-image: url("../../../public/imageProfessional/professional.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -195,15 +173,13 @@
     border-radius: 50%;
   }
 
-  .CardIntro_about-name-professional h1{
-
+  .CardIntro_about-name-professional h1 {
     font-size: 1.2rem;
     font-family: "Abel", sans-serif;
     margin: 0 0 0 10px;
   }
 
-  .CardIntro_about-name-professional p{
-
+  .CardIntro_about-name-professional p {
     font-size: 1rem;
     font-family: "Abel", sans-serif;
     margin: 0 0 0 10px;
@@ -211,15 +187,12 @@
 }
 
 @media screen and (min-width: 500px) {
-
   .CardIntro_content {
-
     width: 100%;
     height: auto;
   }
 
   .CardIntro_box {
-
     width: 100%;
     height: 450px;
 
@@ -229,7 +202,6 @@
   }
 
   .CardIntro_box-images {
-
     width: 90%;
     height: 380px;
 
@@ -237,7 +209,6 @@
   }
 
   .CardIntro_box-image01 {
-
     width: 85%;
     height: 310px;
 
@@ -247,7 +218,6 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 70%;
     height: 230px;
 
@@ -261,9 +231,7 @@
 }
 
 @media screen and (min-width: 700px) {
-
   .CardIntro_box {
-
     width: 100%;
     height: 450px;
 
@@ -273,7 +241,6 @@
   }
 
   .CardIntro_box-images {
-
     width: 80%;
     height: 380px;
 
@@ -281,7 +248,6 @@
   }
 
   .CardIntro_box-image01 {
-
     width: 70%;
     height: 350px;
 
@@ -291,7 +257,6 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 50%;
     height: 240px;
 
@@ -301,13 +266,11 @@
   }
 
   .CardIntro_content-about {
-
     width: 90%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 0rem 1rem 1rem 1rem;
     box-sizing: border-box;
@@ -315,9 +278,7 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .CardIntro {
-
     background-color: white;
 
     width: 100%;
@@ -328,14 +289,12 @@
   }
 
   .CardIntro_content {
-
     width: 100%;
-   
+
     position: relative;
   }
 
   .CardIntro_box {
-
     width: 80%;
     height: 500px;
 
@@ -351,7 +310,6 @@
   }
 
   .CardIntro_box-image01 {
-
     width: 95%;
     height: 400px;
 
@@ -361,14 +319,12 @@
   }
 
   .CardIntro_content-about {
-
     background-color: white;
     width: 60%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 1rem 1rem 1rem 1rem;
     box-sizing: border-box;
@@ -381,7 +337,6 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 50%;
     height: 200px;
 
@@ -392,27 +347,24 @@
 }
 
 @media screen and (min-width: 900px) {
-
   .CardIntro {
-
     background-color: white;
 
     width: 100%;
     height: 650px;
 
     padding: 4rem 0 0 0;
+    margin-bottom: 4rem;
     box-sizing: border-box;
   }
 
   .CardIntro_content {
-
     width: 100%;
-   
+
     position: relative;
   }
 
   .CardIntro_box {
-
     width: 80%;
     height: 500px;
 
@@ -428,7 +380,6 @@
   }
 
   .CardIntro_box-image01 {
-
     width: 95%;
     height: 450px;
 
@@ -438,13 +389,11 @@
   }
 
   .CardIntro_content-about {
-
     background-color: white;
     width: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 1rem 1rem 1rem 1rem;
     box-sizing: border-box;
@@ -457,7 +406,6 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 50%;
     height: 200px;
 
@@ -468,45 +416,35 @@
 }
 
 @media screen and (min-width: 1025px) {
-
   @keyframes apper {
-   
     from {
       opacity: 0;
     }
 
-    to{
-
+    to {
       opacity: 1;
     }
   }
 
   @keyframes reveal {
-   
     from {
       opacity: 0;
       clip-path: inset(45% 20% 45% 20%);
     }
 
-    to{
-
+    to {
       opacity: 1;
-      clip-path: inset(0% 0% 0% 0%)
+      clip-path: inset(0% 0% 0% 0%);
     }
   }
 
-
-
   .CardIntro_box {
-
     animation: apper 2s ease-in-out;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
   }
 
-
   .CardIntro_box-image01 {
-
     width: 85%;
     height: 450px;
 
@@ -518,13 +456,11 @@
   }
 
   .CardIntro_content-about {
-
     background-color: white;
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 1rem 1rem 1rem 1rem;
     box-sizing: border-box;
@@ -538,9 +474,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-
   .CardIntro {
-
     background-color: white;
 
     width: 100%;
@@ -553,16 +487,13 @@
     justify-content: center;
   }
 
-
   .CardIntro_content {
-
     width: 90%;
     max-width: 1200px;
     position: relative;
   }
 
   .CardIntro_box-image01 {
-
     width: 85%;
     max-width: 600px;
     height: 450px;
@@ -573,18 +504,15 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 400px;
   }
 
   .CardIntro_content-about {
-
     background-color: white;
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 1rem 1rem 1rem 1rem;
     box-sizing: border-box;
@@ -598,9 +526,7 @@
 }
 
 @media screen and (min-width: 1400px) {
-
   .CardIntro {
-
     background-color: white;
 
     width: 100%;
@@ -611,76 +537,68 @@
   }
 
   .CardIntro_about {
-
     width: 61%;
     border-bottom: 3px solid orange;
   }
 
-  .CardIntro_about p{
-
+  .CardIntro_about p {
     color: orangered;
 
     font-size: 1.2rem;
     font-family: "Abel", sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
-    padding-bottom: .25rem;
+    padding-bottom: 0.25rem;
     margin: 0;
   }
 
-  .CardIntro_title h1{
-
+  .CardIntro_title h1 {
     color: black;
 
     font-size: 3rem;
     font-family: "Abel", sans-serif;
-    
-    font-weight: 600;
-    padding-bottom: .25rem;
 
-    padding-top: .60rem;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+
+    padding-top: 0.6rem;
     margin: 0;
   }
 
-  .CardIntro_title strong{
-
+  .CardIntro_title strong {
     color: orangered;
 
     font-size: 3rem;
     font-family: "Chakra Petch", sans-serif;
-    
-    font-weight: bolder;
-    padding-bottom: .25rem;
 
-    padding-top: .60rem;
+    font-weight: bolder;
+    padding-bottom: 0.25rem;
+
+    padding-top: 0.6rem;
     margin: 0;
   }
 
-  .CardIntro_txt p{
-
+  .CardIntro_txt p {
     color: rgb(108, 105, 104);
 
     font-size: 1.2rem;
     line-height: 24px;
     font-family: sans-serif;
-    
-    
-    padding: .30rem 0 .30rem 0;
+
+    padding: 0.3rem 0 0.3rem 0;
     margin: 0;
   }
 
-  .CardIntro_list li{
-
+  .CardIntro_list li {
     color: rgb(62, 60, 60);
 
     font-size: 1.1rem;
     font-family: sans-serif;
     font-family: 200;
-    padding-bottom: .50rem;
-  } 
+    padding-bottom: 0.5rem;
+  }
 
-  .CardIntro_list li::before{
-
+  .CardIntro_list li::before {
     content: "✓";
 
     color: red;
@@ -689,13 +607,11 @@
     width: 40px;
     height: 40px;
     margin-right: 5px;
-  } 
+  }
 
   /*-----------------------*/
 
-
   .CardIntro_about-box {
-
     width: 330px;
 
     display: flex;
@@ -703,34 +619,28 @@
 
     border-right: 3px solid orange;
   }
- 
-  .CardIntro_photo-professional {
 
+  .CardIntro_photo-professional {
     width: 80px;
     height: 80px;
     border-radius: 50%;
   }
 
-  .CardIntro_about-name-professional h1{
-
+  .CardIntro_about-name-professional h1 {
     font-size: 1.3rem;
     font-family: "Abel", sans-serif;
     margin: 0 0 0 10px;
   }
 
-  .CardIntro_about-name-professional p{
-
+  .CardIntro_about-name-professional p {
     font-size: 1.1rem;
     font-family: "Abel", sans-serif;
     margin: 0 0 0 10px;
   }
-  
 }
 
 @media screen and (min-width: 1800px) {
-
   .CardIntro {
-
     background-color: white;
 
     width: 100%;
@@ -743,16 +653,13 @@
     justify-content: center;
   }
 
-
   .CardIntro_content {
-
     width: 90%;
     max-width: 1500px;
     position: relative;
   }
 
   .CardIntro_box-image01 {
-
     width: 80%;
     max-width: 600px;
     height: 450px;
@@ -763,19 +670,16 @@
   }
 
   .CardIntro_box-image02 {
-    
     width: 400px;
     left: 100px;
   }
 
   .CardIntro_content-about {
-
     background-color: white;
     width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
     padding: 1rem 1rem 1rem 1rem;
     box-sizing: border-box;
