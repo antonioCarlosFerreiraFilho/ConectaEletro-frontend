@@ -141,25 +141,28 @@ const Banner = () => {
             <div className="Banner_info-none activeInfo">
               <p className="Banner_info-offers">Eletricista 24Horas</p>
               <h1>Serviço Electricidade Urgente</h1>
-              <p className="Banner_info-offers-des">Reparações Elétricas de Imediato</p>
-              <NavLink>Saiba Mais...</NavLink>
+              <p className="Banner_info-offers-des">
+                Reparações Elétricas de Imediato
+              </p>
+              <NavLink to="/about">Saiba Mais...</NavLink>
             </div>
 
             <div className="Banner_info-none">
               <p className="Banner_info-offers">Instalação elétrica</p>
               <h1>Manutenção elétrica preventiva</h1>
-              <p className="Banner_info-offers-des">Realizamos todo o tipo de serviços Elétricos</p>
-              <NavLink>Saiba Mais...</NavLink>
+              <p className="Banner_info-offers-des">
+                Realizamos todo o tipo de serviços Elétricos
+              </p>
+              <NavLink to="/about">Saiba Mais...</NavLink>
             </div>
 
             <div className="Banner_info-none">
               <p className="Banner_info-offers">Eletricista residencial 24h</p>
               <h1>Eletricista Certificado</h1>
               <p className="Banner_info-offers-des">Reparações Elétricas</p>
-              <NavLink>Saiba Mais...</NavLink>
+              <NavLink to="/about">Saiba Mais...</NavLink>
             </div>
           </div>
-
         </div>
         <div className="Banner_clickViews">
           <div className="Banner_box-arrow">
