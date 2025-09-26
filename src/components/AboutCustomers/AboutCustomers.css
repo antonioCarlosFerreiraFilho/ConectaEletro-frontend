@@ -1,20 +1,15 @@
 @media screen and (min-width: 358px) {
- 
   .AboutCustomers {
-
-
   }
 
   .AboutCustomers_content {
-
     margin-top: 2rem;
   }
 
   .AboutCustomers_box-info {
-
     width: 100%;
 
-    padding: .50rem;
+    padding: 0.5rem;
     box-sizing: border-box;
 
     display: flex;
@@ -23,8 +18,7 @@
     justify-content: center;
   }
 
-  .AboutCustomers_box_info-slogan p{
-
+  .AboutCustomers_box_info-slogan p {
     color: orangered;
 
     letter-spacing: 1px;
@@ -34,13 +28,11 @@
     margin: 0;
   }
 
-  .AboutCustomers_box_info-title{
-
+  .AboutCustomers_box_info-title {
     width: 300px;
   }
 
-  .AboutCustomers_box_info-title h1{
-
+  .AboutCustomers_box_info-title h1 {
     color: black;
 
     font-size: 1.8rem;
@@ -51,13 +43,11 @@
   }
 
   .AboutCustomers_box_info-TXT {
-
     width: 300px;
     text-align: center;
   }
 
   .AboutCustomers_box_info-TXT p {
-
     color: black;
 
     line-height: 22px;
@@ -67,7 +57,6 @@
   }
 
   .AboutCustomers_box-comments {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,24 +66,21 @@
   }
 
   .AboutCustomers_box-comments-card {
-
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    padding: .50rem;
+    padding: 0.5rem;
 
     margin: 0 0 3rem 0;
     box-sizing: border-box;
   }
 
   .AboutCustomers_box-comments-doubleQuotes {
-
     color: orangered;
 
     font-size: 3rem;
   }
 
-  .AboutCustomers_box-comments-opinion p{
-
+  .AboutCustomers_box-comments-opinion p {
     color: black;
 
     font-size: 1.2rem;
@@ -105,8 +91,7 @@
     margin: 0;
   }
 
-  .AboutCustomers_box-comments-TXT p{
-
+  .AboutCustomers_box-comments-TXT p {
     color: rgb(102, 97, 97);
 
     font-size: 1rem;
@@ -119,20 +104,18 @@
   }
 
   .AboutCustomers_box-comments-boxUser {
-
     width: 100%;
 
     display: flex;
     align-items: center;
 
-    padding: 1.5rem .50rem .50rem .50rem;
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
 
     box-sizing: border-box;
   }
 
   .AboutCustomers_box-comments-image {
-
-    background-image: url("../../../public/imageProfessional/professional.jpg");
+    background-image: url("../../../public/ImageUser/vecteezy_man_1206101.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,8 +128,7 @@
     margin-right: 10px;
   }
 
-  .AboutCustomers_box-comments-nameUser h1{
-
+  .AboutCustomers_box-comments-nameUser h1 {
     color: black;
 
     font-size: 1rem;
@@ -158,11 +140,10 @@
     margin: 0;
   }
 
-  .AboutCustomers_box-comments-nameUser p{
-
+  .AboutCustomers_box-comments-nameUser p {
     color: rgb(132, 125, 125);
 
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
     line-height: 22px;
     font-family: "Kanit", sans-serif;
@@ -173,28 +154,22 @@
 }
 
 @media screen and (min-width: 440px) {
-
   .AboutCustomers_box-comments {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
-
     padding: 2rem 0rem 1rem 0rem;
   }
-  
-  .AboutCustomers_box-comments-card {
 
+  .AboutCustomers_box-comments-card {
     width: 360px;
   }
 }
 
-@media screen and (min-width: 600px)  {
-
+@media screen and (min-width: 600px) {
   .AboutCustomers_box-comments {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,33 +178,27 @@
     gap: 5px;
     padding: 2rem 0rem 1rem 0rem;
   }
-  
-  .AboutCustomers_box-comments-card {
 
+  .AboutCustomers_box-comments-card {
     width: 49%;
     max-width: 360px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-
   .AboutCustomers_box_info-TXT {
-
     width: 500px;
     text-align: center;
   }
-} 
+}
 
 @media screen and (min-width: 1400px) {
-
   .AboutCustomers {
-
     display: flex;
     justify-content: center;
   }
 
   .AboutCustomers_content {
-
     max-width: 1300px;
     margin: 4rem 0 4rem 0;
   }
